@@ -1,0 +1,3751 @@
+help | Shows the main menu
+fun [Page/All] | Fun commands
+text [Page/All] | Text commands
+info [Page/All] | Information commands
+user [Page/All] | User and Selfbot commands
+image [Page/All] | Image commands
+tool [Page/All] | Tool commands
+server [Page/All] | Server commands
+administration | Administration commands
+nsfw | NSFW image commands
+abuse | Abusive commands
+raid | Raid commands
+usersettings | Discord User settings commands
+botsettings | Selfbot settings commands
+customization | Selfbot customization commands
+searchcmd <Content> | Searches for a command
+repeatcmd | Repeats last command
+usage <Command> | Shows the usage of a command
+description <Command> | Shows the description of a command
+shelp | Shows all commands in the console
+favoritecmds | Favorite commands
+spam <Amount> <Timeout in Seconds> <Message> | Spams a specific message specific amount of times
+spamtts <Amount> <Timeout in Seconds> <Message> | Spams a specific tts message specific amount of times
+filespam | Spams the text from Spam.txt line by line
+ascii <Text> | Shows text in ASCII format
+poll <Message> | Starts a poll with a specific message
+suggestion <Message> | Sends a suggestion with a specific message
+reverse <Text> | Reverses Text
+fliptext <Text> | Flips the text upside down
+zalgo <Text> | Adds Zalgo characters to a Text
+1337 <Text> | Turns Text to a 1337/leet message
+uwu <Text> | UwUfies a message
+mock <Text> | Spongemocks text
+base64 <Encode/Decode> <Text> | Encode/Decode text to/from Base64
+notfunny | Tells someone how unfunny they are
+noob | Tells someone what noob they are
+beescript | Sends the whole Bee Movie Script line by line
+hastebin <Text> | Uploads text to hastebin.com
+loremipsum <Words> | Generates a Lorem Ipsum text with a specified amount of words
+embed <Title> <Text> | Sends and Embed with a custom title and text
+react <Text> [Message ID] [Channel] [Combine(true/false)] | Reacts with the Text translated in Emotes
+uwumode | Toggles UwU Mode
+mockmode | Toggles Mock Mode
+empty | Sends an empty message
+morse <Text> | Convert text to morse code
+unmorse <Text> | Convert morse code to text
+emojify <Text> | Converts text into emojis
+tinyurl <URL> | Converts a URL to a TinyURL
+clap <Sentence> | Puts a clap emoji between each word
+cap <Sentence> | Puts a cap emoji between each word
+semoji <Emoji> <Sentence> | Puts a custom emoji between each word
+markdownblocks | Shows available Markdown code block commands
+animate <Text> | Animates text
+count <From> <To> | Counts from one number to another
+strike <Text> | Puts a line through the text
+spoil <Text> | Puts a spoiler on the text
+lspoil <Text> | Puts a spoiler on each letter of the text
+bold <Text> | Makes text bold
+italic <Text> | Makes text italic
+underline <Text> | Makes text underlined
+blockquote <Text> | Makes text quoted
+upper <Text> | Sends text uppercase
+lower <Text> | Sends text lowercase
+randomguildemoji | Sends a random emoji from the guild (only guilds)
+countdown <From> <To> | Counts from one number to another (down)
+texttobinary <Text> | Converts text to binary
+binarytotext <Binary> | Converts binary to text
+toenchantmenttable <Text> | Translates english to enchantment table language
+cembed <"Title"> ["Description"] ["Footer"] ["Image URL"] | Custom embed
+clear | Clear the chat without permissions
+shrug | Sends a shrug text emoticon
+tableflip | Sends a tableflip text emoticon
+unflip | Sends a table unflip text emoticon
+emoji <Emoji> | Send emoji in bigger format
+vape <Text> | Vaporwave-style message
+space <Text> | Spaced message
+sleeklaunch <IP> <Port> <Duration> <Method> <PPS> | Starts a Sleek.to attack
+sleekstop <Test ID> | Stops a Sleek.to attack
+sleekstatus <Test ID> | Shows information about a Sleek.to attack
+sleekmethods | Shows available Sleek.to attack methods
+encryption | Shows encryption commands
+invisibleping <User> <Message> | Sends a message with an invisible ping
+hiddeninvite <URL> <Text> | Hide a discord invite behind your text
+hiddenlink <URL> <Spoofed URL> | Spoof an URL
+hiddeneveryone <Text> | Hide a @everyone ping behind your text
+fakenitro <Link> | Generates fake Nitro URL
+fakeskeet <Link> | Generates fake Skeet Invite URL
+fakelink <Fake Link> <Original Link> | Sends a fake link
+networking | Networking commands
+dox <Token> | Shows information about someones Discord Account
+tokenfucker <Token> | Changes all settings and let's the Account flicker black and white
+nuketoken <Token> | Purges all guilds and blocks all friends of a Discord Account
+bantoken <Token> | Bans someones Discord Account
+blackscreenurl | Sends a URL which let's people who use Windows get a black screen
+firstmessage | Jump to first message
+dumpchat <Amount> | Saves the channel messages into a file and uploads it
+gping <@User> | Ghostpings an user
+timer <Seconds> <Name> | Set a timer
+savebackup <Name> | Saves a full server backup
+loadbackup <Name> | Loads a full server backup
+deletebackup <Name> | Deletes a server backup
+listbackup | Shows all server backups
+impersonate <User> <Message> | Impersonates a user using a webhook
+delwebhook <Webhook URL> | Deletes a Webhook
+infograbber <Discord Webhook URL> | Creates a info grabber exe file which grabs Discord tokens and computer information
+calculator | Opens calculator [Windows only]
+winexplorer | Opens Windows Explorer [Windows only]
+folder | Open React folder [Windows only]
+webopen <URL> | Opens an URL in your web browser
+leavegroups | Leaves all Groups
+fakedata | Generates a fake identity
+bottoken | Generates a random Discord bottoken
+ebayviews <Amount> <Link> | Adds eBay views
+tempmail | Creates a Temporary Mail
+dm <User> <Text> | Sends a direct message to an user (Bypasses if you have blocked the user)
+friendexport | Backups __some__ of your friends
+purge <Amount> | Purges a specified amount of messages
+spurge <Amount> | Purges a specified amount of your own messages
+bulkreact <Amount> <Emoji> | Reacts to an amount of messages above
+bulkpin <Amount> | Pins the amount of messages above
+miraicrash <IP Address> <Port> | Crashes a Mirai Botnet
+massghostping <User> | Ghostpings a person in every channel
+globalmassghostping <User> | Ghostpings a person in every channel in every mutual server
+giveaway <Seconds> <Winners> <Prize> | Starts a giveaway
+proxyscrape | Scrapes proxies from Proxyscrape
+sleek | Shows available Sleek.to commands
+todo <Task> | Adds a task to the TODO list
+tododel <Task> | Removes a task from the TODO list
+todolist | Shows the TODO list
+todoclear | Clears the TODO list
+yt2mp4 <YouTube URL> | Download a YouTube Video
+eval <Code> | Evaluate Python code
+remoteexecute <Channel> <Command> [Arguments] | Execute a command in another channel
+boobs | Shows a boobs image
+anal | Shows a anal image
+porngif | Shows a porn gif image
+hentai | Shows a hentai image
+hentaiass | Shows a hentai ass image
+hentaianal | Shows a hentai anal image
+hentaiboobs | Shows a hentai boobs image
+hentaitentacle | Shows a hentai tentacle image
+hentaipussy | Sends a random hentai pussy image
+hentaikuni | Sends a random hentai kuni image
+hentaitits | Sends a random hentai tits image
+hentaiketa | Sends a random hentai keta image
+hentaikemonomimi | Sends a random hentai kemonomimi image
+hentaigasm | Sends a random hentai gasm image
+blowjob | Shows a blowjob image
+feet | Shows a feet image
+yaoi | Shows a yaoi image
+ass | Shows an ass image
+cum | Shows a cum image
+trap | Shows a trap image
+futanari | Shows a futanari image
+spank | Shows a spank image
+rule34 | Sends a random rule34.xxx image
+reactencrypt <Message> | Encrypt a message for React Selfbot users
+reactdecrypt <Message> | Decrypt a message from a React Selfbot user
+whirlpool <Text> | Encrypts text to whirlpool
+sha512 <Text> | Encrypts text to sha512
+sha256 <Text> | Encrypts text to sha256
+sha1 <Text> | Encrypts text to sha1
+md5 <Text> | Encrypts text to md5
+rot13 <Text> | Encrypts text to ROT-13
+unrot13 <Text> | Decrypts text from ROT-13
+privatebin <Expiration(5min/10min/1hour/1day)> <Burn after reading(true/false)> <Text> | Uploads text to privatebin.info
+dmall <Text> | DM's all users on the server with the specified message
+banall | Bans all users on the server except yourself
+kickall | Kicks all users on the server except yourself
+nickall <Nick> | Nicks all members
+deleteroles | Deletes all roles on the server
+deletechannels | Deletes all channels on the server
+purgeserver | Deletes all channels and roles
+masschannels | Creates 250 random named channels
+massroles | Creates 250 random named roles
+massunban | Unbans all users on the server
+cloneserver [Server ID] | Creates a server with the same channels and roles
+destroyserver [Server ID] | Deletes all channels, roles and kicks/bans all members and creates random channels and roles
+dumpemojis [Server ID] | Saves all Emojis into an folder
+rainbowrole <Role> | Fades the role color
+unbanall | Unban all users
+renameallroles <Name> | Rename all roles
+renameallchannels <Name> | Rename all channels
+loopservername <Text> | Loop server name
+stoploopservername | Stop looping server name
+nukechannel <Channel> | Clones a channel and deletes the original
+bannedusers | Shows banned users
+channels [Server ID] | Show server channels (including hidden ones)
+delemojis | Deletes all server emojis
+renameserver <Name> | Renames the server
+massping | Pings as many people as possible
+massgping | Mass ghostpings
+cloneservertoserver <ToServerID> <FromServerID> | Clones a server to an existing one
+makerole <Name> | Creates a role
+addrole <Member> <Role> | Gives a role to a member
+removerole <Member> <Role> | Removes a role from a member
+roles [Server ID] | Shows roles
+crypto | Shows all crypto commands
+avatar [User] | Shows user's avatar
+serverlogo [Server ID] | Shows server's logo
+grouplogo | Shows groupchats's logo
+roleinfo <Role> | Shows role information
+serverinfo [Server ID] | Shows server information
+userinfo [User] | Shows user information
+covid [Country] | Shows live COVID-19 stats
+pcspecs | Sends your PC specifications
+urbandict <Word> | Shows the urban definition of a word
+calc <Equation> | Calculates the mathematical answer of an equation
+namehistory <Minecraft Username> | Shows the name history of a Minecraft account
+pokedex <Pokemon> | Shows Pokedex information about a Pokemon
+ping | Shows your latency
+fnstats <Fortnite Name> | Shows the Fortnite stats of an user
+snowflakeinfo <Snowflake ID> | Discord Snowflake information
+dogfact | Random dog fact
+catfact | Random cat fact
+rockstarid <SocialClub Name> | Resolves Social Club's Rockstar ID of a user
+weather <City> | Shows the current weather in the specified city
+discordstatus | Shows current Discord Status
+uptime | Shows the selfbot uptime
+morsetable | Shows the morse code alphabet
+define <Word> | Shows the definition of a word
+howgay <User> | Shows how gay a user is
+howcorona <User> | Shows how corona positive a user is
+howfurry <User> | Shows how forry a user is
+lovecalc <User 1> <User 2> | Love Calculator between two users
+iq <User> | Shows User's IQ
+deathdate <User> | Shows the Death Date of a user
+lyrics <Title> | Shows the lyrics of a song
+translate <FromLang> <ToLang> <Text> | Translates text to a specific language
+mcskin <Minecraft Username> | Shows the Minecraft skin of the user
+mcuuid <Minecraft Username> | Shows the Minecraft UUID of the user
+color <HEX Code> | Shows information about the color
+numberfact <Number> | Shows a fact about a number
+motd | Displays React Selfbot MOTD
+howcap <User> | Shows if a user is capping
+mcserver <Address> | Shows information about a Minecraft Server
+csgostats <Profile ID/Name> | Shows CS:GO Statistics
+rlstats <Profile ID/Name> | Shows Rocket League Statistics
+apexstats <Origin Name> | Shows Apex Legends Statistics
+valorantstats <Riot Name With Tag> | Shows Valorant Statistics
+rockstargamesstatus | Shows Rockstar Games Status
+unixtime <Timestamp> | Converts an UNIX timestamp to time (UTC)
+emojiinfo <Emoji> | Emoji information
+watchuser <User> | Notifies you when an user changes his activity, online status, avatar or username
+unwatchuser <User> | Stops watching an user
+watchlist | Shows users in the watcher
+unwatchall | Stops watching all users
+changelog | Shows the latest changelog
+lookupuser <User ID> | Lookups an user by his ID
+listscripts | Shows your installed scripts
+amazonsearch <Product> | Searches Amazon products
+youtubesearch <Search> | Searches YouTube videos
+googlesearch <Search> | Searches Google
+pornhubsearch <Search> | Searches PornHub videos
+steamsearch <Search> | Searches Steam games
+githubsearch <Search> | Searches GitHub repositories
+stackoverflowsearch <Search> | Searches StackOverflow answers
+wikisearch <Search> | Searches Wikipedia articles
+pornsearch <Search> | Searches PornHub, YouPorn, RedTube, etc. Videos
+sherlocksearch <Username> | Searches for social media accounts
+rpc | Toggles Rich Presence
+rpccustommode | Toggles custom mode
+rpcappid <Application ID> | Sets the RPC Application ID
+rpcdetails <Details> | Sets the RPC details
+rpcstate <State> | Sets the RPC state
+rpclargeimage <Image Name> | Sets the RPC large image
+rpclargeimagetext <Text> | Sets the RPC large image text
+rpcsmallimage <Image Name> | Sets the RPC small image
+rpcsmallimagetext <Text> | Sets the RPC small image text
+rpctime | Toggle RPC Time
+rpcbtnonelabel <Label> | Sets the button one label
+rpcbtnoneurl <URL> | Sets the button one URL
+rpcbtntwolabel <Label> | Sets the button two label
+rpcbtntwourl <URL> | Sets the button two URL
+rpcupdate | Restarts the bot to apply some rich presence features
+coinflip | Flips a Coin
+cocksize <Users> | Do a Cock comparison
+8ball <Question> | Ask the Magic 8 ball
+dadjoke | Tells a dad joke
+joke | Tells a joke
+chucknorrisjoke | Tells a Chuck Norris joke
+wyr | Posts a Would you Rather embed
+topic | Changes the topic
+trumpquote | Shows a random Donald Trump quote
+ccgen [Mastercard/Visa/Amex/Discover] | Generates a fake credit card
+911 | Sends a short 9/11 animation
+choose <Options> | Takes a random choice between options
+nitro <Amount> | Generates Nitro and sends Codes every 3 seconds
+search | Shows search commands
+lmgtfy <Search> | Sends a Let Me Google That For You Link
+slots | Gamble with a slot machine
+tts <Language(en/de/fr/es/etc)> <Text> | Generates a Text To Speech mp3 and sends it
+passwordgen | Generates a secure password
+rps <Rock/Paper/Scissors> | Play a game of Rock, Paper, Scissors against an AI
+animatenick <Text> | Animated nickname
+stopanimatenick | Stop annimated nickname
+hypesquadcycle | Cycle HypeSquad houses
+dice [Sides] | Rolls a dice with the specified amount of sides
+creeper | Sends an "infinite" creeper "gif"
+advice | Gives a random advice
+fml | Sends a random FML
+dankfarm | Starts farming coins for Dank Memer
+snipe | Shows the last deleted message
+randomusername | Generates a random username
+kanyequote | Generates a random Kanye West quote
+bored | Generates a random activity
+randomnumber [Minimum] [Maximum] | Generates a random number
+netflixroulette | Generates a random netflix show
+bubblewrap | Bubble Wrap pop
+minesweeper | Minesweeper
+randomemoji | Sends a random emoji
+spoofnitro | Sends a Nitro gift link which doesn't embed but looks real 
+uselessfact | Shows a random useless fact
+insult <User> | Insults an user
+nwordcounter | Shows how many times the n-word has been said
+truthordare [Truth/Dare] | Random Truth or Dare
+spamtillyouredead | Custom Dance till you're dead lyrics
+playing <Status> | Sets your playing status
+streaming <Status> | Sets your streaming status
+listening <Status> | Sets your listening status
+watching <Status> | Sets your watching status
+removestatus | Removes your status
+online | Sets your status to online
+idle | Sets your status to idle
+dnd | Sets your status to do not disturb
+invisible | Sets your status to invisible
+statuscycleadd <Word> | Adds a word to the status cycle
+statuscycle | Toggles status cycle
+statuscycleclear | Clears the status cycle words
+onlinestatuscycle | Toggles online status cycle
+setupwhooks | Creates a category, channels, webhooks and saves them to the config
+webhook <Name> | Creates a webhook
+wall <URL> | Sets the webhook URL for everything
+wnitro <URL> | Set Nitro webhook URL
+wgiveaways <URL> | Set giveaways webhook URL
+wsbdetection <URL> | Set Selfbot Detection webhook URL
+wgpings <URL> | Set Ghostpings webhook URL
+wcmds <URL> | Set Command usage webhook URL
+wdmdels <URL> | Set DM deletions webhook URL
+wprivnotes <URL> | Set Privnotes webhook URL
+wwatcher <URL> | Set Watcher webhook URL
+wserverban <URL> | Set Server Bans webhook URL
+wtickets <URL> | Set Tickets detection webhook URL
+wrelationships <URL> | Set Relationship updates webhook URL
+wroleupdates <URL> | Set Role updates webhook URL
+wnickname <URL> | Set Nickname updates webhook URL
+ndmdels | Toggles DM deletion Windows notifications
+nnitroredeem | Toggles Nitro redeem Windows notifications
+nghostping | Toggles ghostping Windows notifications
+nprivnote | Toggles Privnote Windows notifications
+ngiveawaywin | Toggles giveaway win Windows notifications
+ngiveawayjoin | Toggles giveaway join Windows notifications
+nsbdetection | Toggles selfbot detection Windows notifications
+ntickets | Toggles ticket detection Windows notifications
+nrelationships | Toggles relationship detection Windows notifications
+nroleupdates | Toggles role updates detection Windows notifications
+nnickname | Toggles Nickname updates detection Windows notifications
+snsnipe | Toggles successfull Nitro snipe sound notifications
+sgwin | Toggles giveaway win sound notifications
+sprivnotes | Toggles Privnotes snipe sound notifications
+ssbdetection | Toggles selfbot detection sound notifications
+sdmdels | Toggles DM deletions sound notifications
+sban | Toggles server ban sound notifications
+sghostping | Toggles Ghostping sound notifications
+srelationships | Toggles Relationship updates sound notifications
+stickets | Toggles Tickets detection sound notifications
+sroleupdates | Toggles Role updates detection sound notifications
+snickname | Toggles Nickname updates detection sound notifications
+status | Shows status commands
+darkmode | Changes your Discord theme to dark
+lightmode | Changes your Discord theme to light
+messagedisplay <Compact/Cozy> | Changes your message display
+developer <Enable/Disable> | Enables/Disables Discord Developer mode
+typing <Seconds> | Shows typing... message for the specified amount of seconds
+invisiblenickname | Changes your nickname to invisible letters
+junknickname | Changes your nickname to junk letters
+hypesquad <Bravery/Balance/Brilliance> | Changes your HypeSquad House
+addfriend <User> | Adds someone as a friend
+unfriend <User> | Removes a friend
+block <User> | Blocks a user
+unblock <User> | Unblocks a user
+setusername <Name> | Sets your Discord username
+setpfp <URL> | Sets your Discord profile picture
+unverify | Unverify your email
+changeprefix <New Prefix> | Changes selfbot prefix
+restartbot | Restarts the Selfbot
+stopbot | Stops the bot
+updatebot | Updates the Selfbot
+showsettings | Sends your Selfbot settings
+deletecommands | Toggle deleting command invoke message
+disablecommand <Command> | Disables a selfbot command
+enablecommand <Command> | Enables a selfbot command
+disabledcommands | List of disabled commands
+nitrosniper | Toggles Nitro sniping
+selfbotdetection | Toggles Selfbot user detection
+privnotesniper | Toggles Privnote sniping
+ghostpingdetection | Toggles ghostping detection
+giveawaysniper | Toggles Giveaway sniping
+giveawaytimeout <Seconds> | Sets the Giveaway sniper timeout
+giveawayblacklistadd <Word> | Add a word to the giveaway word blacklist
+giveawayblacklistdel <Word> | Delete a word from the giveaway word blacklist
+giveawayblacklist | Shows the giveaway blacklist
+ignorenitro <Channel> | Ignores Nitro codes form a channel
+stopignorenitro <Channel> | Stop ignoring Nitro codes form a channel
+ticketdetection | Toggles ticket detection
+relationshipdetection | Toggles relationship update detection
+afkmsg <New Message> | Change your AFK auto-reply message
+deletetimeout <Infinite/(Seconds)> | Sets the time after that embeds should be deleted
+streamingurl <URL> | Sets the URL for the streaming command
+whookurls | Shows Webhook URL commands
+snotifs | Shows sound notifications commands
+toastnotifs | Shows Windows Toast notifications commands
+themes | Shows the available themes
+theme <Theme Name> | Selects a theme
+cloudthemes | Shows the available cloudthemes
+cloudthemeinstall <Theme Name> | Installs a cloud theme
+newtheme <Name> | Creates a new theme and switches to it
+deltheme | Deletes the current theme
+themeshuffle | Toggle theme shuffle
+exporttheme | Sends the current theme in the chat
+languages | Shows the available languages
+language <Language ID> | Selects a language
+switchmode | Switch to Codeblock/Embed mode
+sbtitle <New Title> | Sets the selfbot title
+globalemoji <New Emoji> | Sets the global emoji
+embedcolor <Hexcode> | Change the embed color
+embedthumbnail <URL> | Change the embed thumbnail icon
+embedauthorname <Name> | Change the embed author name
+embedauthoricon <URL> | Change the embed author icon
+embedauthorurl <URL> | Change the embed author URL
+embedtitleurl <URL> | Change the embed title URL
+embedfootericon <URL> | Change the embed footer icon
+embedfooter <Text> | Change the embed footer text
+footertimestamp | Enables/Disables the footer timestamp
+customcmdadd <Command Name Without Prefix> <Content> | Creates a custom command
+customcmddel <Command Name With Prefix> | Deletes a custom command
+customcmdlist | Shows available custom commands
+remotecommandsuseradd <User> | Allows other user to use selfbot commands
+remotecommandsuserdel <User> | Disallows other user to use selfbot commands
+cmdhistory | Command history
+clearlog | Clears console log
+copyuser <User> | Repeats everything the user types
+stopcopy <User> | Stops repeating the user
+stopcopyall | Stops repeating the all users
+copymock <User> | Repeats everything the user types in a mocking way
+stopcopymock <User> | Stops copymocking the user
+deletesend <User> | Sends every message a user deletes
+stopdeletesend <User> | Stop sending every message a user deletes
+ignoreuser <User> | Ignores messages from an user
+stopignoreuser <User> | Stops ignoring messages from an user
+stopignoreallusers | Stops ignoring messages from all users
+ignorepings | Toggles ignoring @here & @everyone pings
+ignoreallpings | Toggles ignoring all pings
+clearpings <Server ID> | Clears all pings of an server
+afk | Toggles AFK Mode
+afklog | Show who sent you while being AFK
+stats | Shows your Selfbot Statistics
+userstats | Shows your Discord statistics
+mutualguilds <User> | Shows mutual guilds with user
+mutualfriends <User> | Shows mutual friends with user
+guilds | Shows a list of your guilds
+blocks | Shows a list of your blocked users
+stealname <User> | Steals someones Discord username
+stealpfp <User> | Steals someones Discord profile picture
+stealnameandpfp <User> | Steals someones Discord name and profile picture
+blockdms | Toggle blocking incoming DMs (useful when getting massdmed)
+blockincomingfriends | Toggle blocking incoming friend requests (useful when getting massfriendrequested)
+noleave <User> | User can not leave Group DM (requires friendship with the user)
+allowleave <User> | Allow user to leave the Group DM
+richpresence | Shows Rich Presence commands
+leaveallservers | Leaves all guilds
+deleteallfriends | Blocks all friends
+deletealldms | Deletes all Direct Messages
+cloudscripts | Shows the available cloudscripts
+cloudscriptinstall <Script Name> | Installs a cloud script
+addfavorite <Command> | Add a command to the favorites
+delfavorite <Command> | Delete a command from the favorites
+fox | Sends a random fox image
+duck | Sends a random duck image
+dog | Sends a random dog image
+cat | Sends a random cat image
+panda | Sends a random panda image
+redpanda | Sends a random red panda image
+koala | Sends a random koala image
+bird | Sends a random bird image
+pikachu | Sends a random pikachu image
+hug | Sends a random hug gif
+kiss | Sends a random kiss gif
+wink | Sends a random wink image
+waifu | Sends a random waifu image
+neko | Sends a random neko image
+wallpaper | Sends a random wallpaper image
+food | Sends a random food image
+sadcat | Sends a random sad cat image
+tpdne | Sends a random this person does not exist image
+yesorno | Sends a yes or no image
+belikebill | Sends a Be Like Bill image
+wasted <User> | Adds wasted overlay to avatar
+triggered <User> | Adds triggered overlay to avatar
+trumptweet <Tweet> | Generates a Trump Tweet with a custom message
+tweet <Username> <Tweet> | Tweets a message with a specific username
+achievement <Text> | Generates an Minecraft Achievement Get imagege
+phcomment <User> <Text> | Generates a PornHub comment with a custom message
+qrcode <Text> | Generates a QR Code image with the specified text
+approved <Member> | Generates a approved image with the member's profile picture
+rejected <Member> | Generates a rejected image with the member's profile picture
+batslap <Member> | Generates a batslap image with the member's profile picture
+beautiful <Member> | Generates a beautiful image with the member's profile picture
+brazzers <Member> | Generates a brazzers image with the member's profile picture
+burn <Member> | Generates a burn image with the member's profile picture
+crush <Member> | Generates a crush image with the member's profile picture
+dictator <Member> | Generates a dictator image with the member's profile picture
+discordhouse <Bravery, Brilliance, Balance> <Member> | Generates a discordhouse image with the member's profile picture
+gay <Member> | Generates a gay image with the member's profile picture
+magik <Member> | Generates a magik image with the member's profile picture
+missionpassed <Member> | Generates a missionpassed image with the member's profile picture
+rip <Member> | Generates a rip image with the member's profile picture
+scary <Member> | Generates a scary image with the member's profile picture
+sniper <Member> | Generates a sniper image with the member's profile picture
+tobecontinued <Member> | Generates a tobecontinued image with the member's profile picture
+subzero <Member> | Generates a subzero image with the member's profile picture
+vs <Member> | Generates a vs image with the member's profile picture
+wanted <Member> | Generates a wanted image with the member's profile picture
+whowouldwin <Member> | Generates a whowouldwin image with the member's profile picture
+changemymind <Text> | Generates Change my Mind image
+clyde <Text> | Generates a ClydeBOT image
+supreme <Text> | Generates a Supreme Logo image
+scroll <Text> | Generates a Scroll of Truth image
+captcha <Text> | Generates a reCAPTCHA image
+phlogo <Text 1> <Text 2> | Generates a Pornhub Logo image
+facts <Text> | Generates a facts image
+deletetrash <User> | Generates a delete trash image
+smart <User> | Generates a smart image
+shoot <User> | Generates a shoot image
+punch <User> | Generates a punch image
+bear | Generates a bear image
+car | Generates a car image
+shiba | Generates a shiba image
+goose | Sends a random goose image
+slap | Sends a random slap image
+pat | Sends a random pat image
+poke | Sends a random poke image
+tickle | Sends a random tickle image
+cuddle | Sends a random cuddle image
+smug | Sends a random smug image
+baka | Sends a random baka image
+kannagen <Text> | Generates a kanna image
+httpcat <HTTP Code> | Generates a cat image with an HTTP code
+trash <User> | Generates a trash image
+crap <User> | Generates a crap image
+simpcard <User> | Generates a simpcard image
+gif <Text> | Searches for a gif
+eject <Impostor(true/false)> <Crewmate(red,lime,blue)> <User> | Eject an user
+carreverse <Text> | Car reverse meme
+water <Text> | Water meme
+emergencymeeting <Text> | Emergency meeting meme
+iamspeed <User> | I am speed meme
+drip <User> | Drip goku meme
+firsttime <User> | First time meme
+heaven <User> | Heaven meme
+dockofshame <User> | Dock of Shame image
+icanmilkyou <User 1> <User 2> | I can milk you meme
+stonks <User> | Stonks meme
+notstonks <User> | Not stonks meme
+tableflipimg <User> | Table flip meme
+batmanslap <User(Batman)> <User(Robin)> <"Text 1"> <"Text 2"> | Batman slap meme
+distractedbf <User(Boyfriend)> <User(Woman)> <User(Girlfriend)> | Distracted boyfriend meme 
+npc <"Text 1"> <"Text 2"> | NPC meme
+wide <User> | Wide avatar
+womanyellingatcat <User(Woman)> <User(Cat)> | Woman yelling at cat meme
+drake <"Text 1"> <"Text 2"> | Drake meme
+fry <"Text 1"> <"Text 2"> | Fry meme
+bihw <"Text 1"> <"Text 2"> | But it's honest work meme
+cheems <"Text 1"> <"Text 2"> | Cheems images
+fwp <"Text 1"> <"Text 2"> | First World Problems meme
+mb <"Text 1"> <"Text 2"> | Member Berries meme
+mordor <"Text 1"> <"Text 2"> | Mordor meme
+morpheus <"Text 1"> <"Text 2"> | Matrix Morpheus meme
+pigeon <"Text 1"> <"Text 2"> | Is this a pigeon meme
+spiderman <"Text 1"> <"Text 2"> | Spiderman pointing at Spiderman meme
+spongemock <"Text 1"> <"Text 2"> | Mocking Spongebob meme
+ds <"Text 1"> <"Text 2"> | Daily Struggle meme
+ps4 <User> | PS4 Cover
+thanos <User> | Thanos effect
+moustache <User> | Moustache over avatar
+glitch <User> | Glitch effect
+dungeon <User> | Dungeon meme
+challenger <User> | Challenger approaching
+3000years <User> | 3000 years meme
+revavatar <User> | Reverse Avatar Search
+revimage <URL> | Reverse Image Search
+aag <"Text 1"> <"Text 2"> | Ancient Aliens Guy
+ackbar <"Text 1"> <"Text 2"> | It's A Trap!
+afraid <"Text 1"> <"Text 2"> | Afraid to Ask Andy
+agnes <"Text 1"> <"Text 2"> | Agnes Harkness Winking
+aintgottime <"Text 1"> <"Text 2"> | Sweet Brown / Ain't Nobody Got Time For That
+ams <"Text 1"> <"Text 2"> | Awkward Moment Seal
+ants <"Text 1"> <"Text 2"> | Do You Want Ants?
+apcr <"Text 1"> <"Text 2"> | Almost Politically Correct Redneck
+atis <"Text 1"> <"Text 2"> | And Then I Said
+away <"Text 1"> <"Text 2"> | Life... Finds a Way
+awesome <"Text 1"> <"Text 2"> | Socially Awesome Penguin
+awesomeawkward <"Text 1"> <"Text 2"> | Socially Awesome Awkward Penguin
+awkward <"Text 1"> <"Text 2"> | Socially Awkward Penguin
+awkwardawesome <"Text 1"> <"Text 2"> | Socially Awkward Awesome Penguin
+bad <"Text 1"> <"Text 2"> | You Should Feel Bad
+badchoice <"Text 1"> <"Text 2"> | Milk Was a Bad Choice
+bd <"Text 1"> <"Text 2"> | Butthurt Dweller
+bender <"Text 1"> <"Text 2"> | I'm Going to Build My Own Theme Park
+bihw <"Text 1"> <"Text 2"> | But It's Honest Work
+biw <"Text 1"> <"Text 2"> | Baby Insanity Wolf
+blb <"Text 1"> <"Text 2"> | Bad Luck Brian
+boat <"Text 1"> <"Text 2"> | I Should Buy a Boat Cat
+both <"Text 1"> <"Text 2"> | Why Not Both?
+bs <"Text 1"> <"Text 2"> | This is Bull, Shark
+buzz <"Text 1"> <"Text 2"> | X, X Everywhere
+captain <"Text 1"> <"Text 2"> | I am the Captain Now
+captainamerica <"Text 1"> <"Text 2"> | Captain America Elevator Fight Dad Joke
+cb <"Text 1"> <"Text 2"> | Confession Bear
+cbg <"Text 1"> <"Text 2"> | Comic Book Guy
+center <"Text 1"> <"Text 2"> | What is this, a Center for Ants?!
+ch <"Text 1"> <"Text 2"> | Captain Hindsight
+cheems <"Text 1"> <"Text 2"> | Cheems
+chosen <"Text 1"> <"Text 2"> | You Were the Chosen One!
+cmm <"Text 1"> <"Text 2"> | Change My Mind
+crazypills <"Text 1"> <"Text 2"> | I Feel Like I'm Taking Crazy Pills
+cryingfloor <"Text 1"> <"Text 2"> | Crying on Floor
+db <"Text 1"> <"Text 2"> | Distracted Boyfriend
+dg <"Text 1"> <"Text 2"> | Distracted Girlfriend
+disastergirl <"Text 1"> <"Text 2"> | Disaster Girl
+dodgson <"Text 1"> <"Text 2"> | See? Nobody Cares
+dogeimg <"Text 1"> <"Text 2"> | Doge
+drake <"Text 1"> <"Text 2"> | Drakeposting
+ds <"Text 1"> <"Text 2"> | Daily Struggle
+dsm <"Text 1"> <"Text 2"> | Dating Site Murderer
+dwight <"Text 1"> <"Text 2"> | Schrute Facts
+elf <"Text 1"> <"Text 2"> | You Sit on a Throne of Lies
+ermg <"Text 1"> <"Text 2"> | Ermahgerd
+fa <"Text 1"> <"Text 2"> | Forever Alone
+facepalm <"Text 1"> <"Text 2"> | Facepalm
+fbf <"Text 1"> <"Text 2"> | Foul Bachelor Frog
+feelsgood <"Text 1"> <"Text 2"> | Feels Good
+fetch <"Text 1"> <"Text 2"> | Stop Trying to Make Fetch Happen
+fine <"Text 1"> <"Text 2"> | This is Fine
+firsttry <"Text 1"> <"Text 2"> | First Try!
+fmr <"Text 1"> <"Text 2"> | Fuck Me, Right?
+fry <"Text 1"> <"Text 2"> | Futurama Fry
+fwp <"Text 1"> <"Text 2"> | First World Problems
+gandalf <"Text 1"> <"Text 2"> | Confused Gandalf
+gb <"Text 1"> <"Text 2"> | Galaxy Brain
+gears <"Text 1"> <"Text 2"> | You Know What Really Grinds My Gears?
+ggg <"Text 1"> <"Text 2"> | Good Guy Greg
+gru <"Text 1"> <"Text 2"> | Gru's Plan
+grumpycat <"Text 1"> <"Text 2"> | Grumpy Cat
+hagrid <"Text 1"> <"Text 2"> | I Should Not Have Said That
+happening <"Text 1"> <"Text 2"> | It's Happening
+harold <"Text 1"> <"Text 2"> | Hide the Pain Harold
+hipster <"Text 1"> <"Text 2"> | Hipster Barista
+icanhas <"Text 1"> <"Text 2"> | I Can Has Cheezburger?
+imsorry <"Text 1"> <"Text 2"> | Oh, I'm Sorry, I Thought This Was America
+inigo <"Text 1"> <"Text 2"> | Inigo Montoya
+interesting <"Text 1"> <"Text 2"> | The Most Interesting Man in the World
+ive <"Text 1"> <"Text 2"> | Jony Ive Redesigns Things
+iw <"Text 1"> <"Text 2"> | Insanity Wolf
+jd <"Text 1"> <"Text 2"> | Joseph Ducreux / Archaic Rap
+jetpack <"Text 1"> <"Text 2"> | Nothing To Do Here
+joker <"Text 1"> <"Text 2"> | It's Simple, Kill the Batman
+jw <"Text 1"> <"Text 2"> | Probably Not a Good Idea
+keanu <"Text 1"> <"Text 2"> | Conspiracy Keanu
+kermit <"Text 1"> <"Text 2"> | But That's None of My Business
+kombucha <"Text 1"> <"Text 2"> | Kombucha Girl
+leo <"Text 1"> <"Text 2"> | Leo Strutting
+live <"Text 1"> <"Text 2"> | Do It Live!
+ll <"Text 1"> <"Text 2"> | Laughing Lizard
+lrv <"Text 1"> <"Text 2"> | Laundry Room Viking
+mb <"Text 1"> <"Text 2"> | Member Berries
+michaelscott <"Text 1"> <"Text 2"> | Michael Scott No God No
+millers <"Text 1"> <"Text 2"> | You Guys Are Getting Paid?
+minikeanu <"Text 1"> <"Text 2"> | Mini Keanu Reeves
+mmm <"Text 1"> <"Text 2"> | Minor Mistake Marvin
+money <"Text 1"> <"Text 2"> | Shut Up and Take My Money!
+mordor <"Text 1"> <"Text 2"> | One Does Not Simply Walk into Mordor
+morpheus <"Text 1"> <"Text 2"> | Matrix Morpheus
+mw <"Text 1"> <"Text 2"> | I Guarantee It
+nice <"Text 1"> <"Text 2"> | So I Got That Goin' For Me, Which is Nice
+noidea <"Text 1"> <"Text 2"> | I Have No Idea What I'm Doing
+ntot <"Text 1"> <"Text 2"> | No Take, Only Throw
+oag <"Text 1"> <"Text 2"> | Overly Attached Girlfriend
+officespace <"Text 1"> <"Text 2"> | That Would Be Great
+older <"Text 1"> <"Text 2"> | An Older Code Sir, But It Checks Out
+oprah <"Text 1"> <"Text 2"> | Oprah You Get a Car
+patrick <"Text 1"> <"Text 2"> | Push it somewhere else Patrick
+persian <"Text 1"> <"Text 2"> | Persian Cat Room Guardian
+philosoraptor <"Text 1"> <"Text 2"> | Philosoraptor
+pigeon <"Text 1"> <"Text 2"> | Is This a Pigeon?
+ptj <"Text 1"> <"Text 2"> | Phoebe Teaching Joey
+puffin <"Text 1"> <"Text 2"> | Unpopular opinion puffin
+red <"Text 1"> <"Text 2"> | Oh, Is That What We're Going to Do Today?
+regret <"Text 1"> <"Text 2"> | I Immediately Regret This Decision!
+remembers <"Text 1"> <"Text 2"> | Pepperidge Farm Remembers
+rollsafe <"Text 1"> <"Text 2"> | Roll Safe
+sadbiden <"Text 1"> <"Text 2"> | Sad Joe Biden
+sadboehner <"Text 1"> <"Text 2"> | Sad John Boehner
+sadbush <"Text 1"> <"Text 2"> | Sad George Bush
+sadclinton <"Text 1"> <"Text 2"> | Sad Bill Clinton
+sadobama <"Text 1"> <"Text 2"> | Sad Barack Obama
+sadfrog <"Text 1"> <"Text 2"> | Sad Frog / Feels Bad Man
+saltbae <"Text 1"> <"Text 2"> | Salt Bae
+sarcasticbear <"Text 1"> <"Text 2"> | Sarcastic Bear
+sb <"Text 1"> <"Text 2"> | Scumbag Brain
+scc <"Text 1"> <"Text 2"> | Sudden Clarity Clarence
+sf <"Text 1"> <"Text 2"> | Sealed Fate
+sk <"Text 1"> <"Text 2"> | Skeptical Third World Kid
+ski <"Text 1"> <"Text 2"> | Super Cool Ski Instructor
+snek <"Text 1"> <"Text 2"> | Skeptical Snake
+soa <"Text 1"> <"Text 2"> | Seal of Approval
+sohappy <"Text 1"> <"Text 2"> | I Would Be So Happy
+sohot <"Text 1"> <"Text 2"> | So Hot Right Now
+soupnazi <"Text 1"> <"Text 2"> | No Soup for You / Soup Nazi
+sparta <"Text 1"> <"Text 2"> | This is Sparta!
+spiderman <"Text 1"> <"Text 2"> | Spider-Man Pointing at Spider-Man
+spongebob <"Text 1"> <"Text 2"> | Mocking Spongebob
+ss <"Text 1"> <"Text 2"> | Scumbag Steve
+stew <"Text 1"> <"Text 2"> | Baby, You've Got a Stew Going
+stopit <"Text 1"> <"Text 2"> | Stop It, Get Some Help
+success <"Text 1"> <"Text 2"> | Success Kid
+tenguy <"Text 1"> <"Text 2"> | 10 Guy
+toohigh <"Text 1"> <"Text 2"> | The Rent Is Too Damn High
+tried <"Text 1"> <"Text 2"> | At Least You Tried
+trump <"Text 1"> <"Text 2"> | Donald Trump
+ugandanknuck <"Text 1"> <"Text 2"> | Ugandan Knuckles
+whatyear <"Text 1"> <"Text 2"> | What Year Is It?
+winter <"Text 1"> <"Text 2"> | Winter is coming
+wkh <"Text 1"> <"Text 2"> | Who Killed Hannibal?
+wonka <"Text 1"> <"Text 2"> | Condescending Wonka
+xy <"Text 1"> <"Text 2"> | X all the Y
+yallgot <"Text 1"> <"Text 2"> | Y'all Got Any More of Them
+yodawg <"Text 1"> <"Text 2"> | Xzibit Yo Dawg
+yuno <"Text 1"> <"Text 2"> | Y U NO Guy
+zerowing <"Text 1"> <"Text 2"> | All Your Base Are Belong to Us
+checktokens | Checks the tokens from Tokens.txt and removes invalid ones
+spamwebhook <Webhook URL> | Spams a webhook
+raidjoin <Invite Code> | Lets all tokens join the server
+raidleave <Server ID> | Lets all tokens leave the server
+raidmessage <Channel ID> <Amount> <Message> | Lets all tokens write messages in a channel
+raidfriendrequest <User ID> | Lets all tokens send friend requests to the user
+raidremovefriend <User ID> | Lets all tokens remove the user as friend
+raidnick <Guild ID> <Nickname> | Sets the nickname of all tokens on a server
+raidreact <Channel ID> <Message ID> <Emoji> | Lets all tokens react on a message with an emoji
+raidproxyjoin <Invite Code> | Lets all tokens join the server
+raidproxyleave <Server ID> | Lets all tokens leave the server
+raidproxymessage <Channel ID> <Amount> <Message> | Lets all tokens write messages in a channel
+raidproxyfriendrequest <User ID> | Lets all tokens send friend requests to the user
+raidproxyremovefriend <User ID> | Lets all tokens remove the user as friend
+raidproxynick <Guild ID> <Nickname> | Sets the nickname of all tokens on a server
+raidproxyreact <Channel ID> <Message ID> <Emoji> | Lets all tokens react on a message with an emoji
+zoc | Latest price of 01coin
+paxghalf | Latest price of 0.5X Long PAX Gold Token
+sxphalf | Latest price of 0.5X Long Swipe Token
+zcn | Latest price of 0chain
+zrx | Latest price of 0x
+zxc | Latest price of 0xcert
+tshp | Latest price of 12Ships
+1inch | Latest price of 1inch
+1gold | Latest price of 1irstGold
+1wo | Latest price of 1World
+bvol | Latest price of Bitcoin Volatility Token
+hedge | Latest price of 1X Short Bitcoin Token
+ibvol | Latest price of Inverse Bitcoin Volatility Token
+2based | Latest price of 2Based Finance
+2give | Latest price of 2GIVE
+2key | Latest price of 2key.network
+altbull | Latest price of 3X Long Altcoin Index Token
+balbull | Latest price of 3X Long Balancer Token
+bchbull | Latest price of 3X Long Bitcoin Cash Token
+bsvbull | Latest price of 3X Long Bitcoin SV Token
+bull | Latest price of 3X Long Bitcoin Token
+btmxbull | Latest price of 3X Long BitMax Token Token
+bnbbull | Latest price of 3X Long BNB Token
+adabull | Latest price of 3X Long Cardano Token
+linkbull | Latest price of 3X Long Chainlink Token
+compbull | Latest price of 3X Long Compound Token Token
+cusdtbull | Latest price of 3X Long Compound USDT Token
+defibull | Latest price of 3X Long DeFi Index Token
+eosbull | Latest price of 3X Long EOS Token
+ethbull | Latest price of 3X Long Ethereum Token
+exchbull | Latest price of 3X Long Exchange Token Index Token
+kncbull | Latest price of 3X Long Kyber Network Token
+ltcbull | Latest price of 3X Long Litecoin Token
+xlmbull | Latest price of 3X Long Stellar Token
+trxbull | Latest price of 3X Long TRX Token
+vetbull | Latest price of 3X Long VeChain Token
+xrpbull | Latest price of 3X Long XRP Token
+altbear | Latest price of 3X Short Altcoin Index Token
+balbear | Latest price of 3X Short Balancer Token
+bchbear | Latest price of 3X Short Bitcoin Cash Token
+bsvbear | Latest price of 3X Short Bitcoin SV Token
+btmxbear | Latest price of 3X Short BitMax Token Token
+bnbbear | Latest price of 3X Short BNB Token
+adabear | Latest price of 3X Short Cardano Token
+linkbear | Latest price of 3X Short Chainlink Token
+compbear | Latest price of 3X Short Compound Token Token
+cusdtbear | Latest price of 3X Short Compound USDT Token
+defibear | Latest price of 3X Short DeFi Index Token
+eosbear | Latest price of 3X Short EOS Token
+ethbear | Latest price of 3X Short Ethereum Token
+exchbear | Latest price of 3X Short Exchange Token Index Token
+kncbear | Latest price of 3X Short Kyber Network Token
+ltcbear | Latest price of 3X Short Litecoin Token
+xlmbear | Latest price of 3X Short Stellar Token
+trxbear | Latest price of 3X Short TRX Token
+vetbear | Latest price of 3X Short VeChain Token
+xrpbear | Latest price of 3X Short XRP Token
+404 | Latest price of 404
+42 | Latest price of 42-coin
+4art | Latest price of 4ART Coin
+kwatt | Latest price of 4New
+7e | Latest price of 7ELEVEN
+exe | Latest price of 8X8 Protocol
+aave | Latest price of Aave
+adai | Latest price of Aave DAI
+ghst | Latest price of Aavegotchi
+aren | Latest price of Aave REN
+aab | Latest price of AAX Token
+abc | Latest price of ABC Chain
+at | Latest price of ABCC Token
+abs | Latest price of Absolute
+act | Latest price of Achain
+acm | Latest price of AC Milan Fan Token
+ac | Latest price of ACoconut
+acoin | Latest price of Acoin
+actn | Latest price of Action Coin
+acu | Latest price of Acuity
+aac | Latest price of Acute Angle Cloud
+adm | Latest price of ADAMANT Messenger
+adb | Latest price of adbank
+add | Latest price of Add.xyz (NEW)
+adl | Latest price of Adelphoi
+adx | Latest price of AdEx
+adi | Latest price of Aditus
+ads | Latest price of Adshares
+adt | Latest price of adToken
+aib | Latest price of Advanced Integrated Blocks
+adz | Latest price of Adzcoin
+ags | Latest price of Aegis
+aeon | Latest price of Aeon
+aergo | Latest price of Aergo
+arnx | Latest price of Aeron
+aet | Latest price of AEROTOKEN
+aer | Latest price of Aeryus
+ae | Latest price of Aeternity
+aevo | Latest price of Always Evolving
+att | Latest price of Africa Trading Chain
+agvc | Latest price of AgaveCoin
+aget | Latest price of Agetron
+agrs | Latest price of Agoras Token
+dlt | Latest price of Agrello
+aat | Latest price of Agricultural Trade Chain
+aht | Latest price of AhaToken
+ait | Latest price of AICHAIN
+aid | Latest price of AidCoin
+aidoc | Latest price of AI Doctor
+adk | Latest price of Aidos Kuneen
+aidus | Latest price of AIDUS Token
+ali | Latest price of AiLink Token
+aion | Latest price of Aion
+aipe | Latest price of AI Prediction Ecosystem
+abl | Latest price of Airbloc
+airx | Latest price of Aircoins
+ast | Latest price of AirSwap
+agt | Latest price of AISF
+akt | Latest price of Akash Network
+akn | Latest price of Akoin
+aka | Latest price of Akroma
+akro | Latest price of Akropolis
+adel | Latest price of Delphi
+atp | Latest price of Alaya
+sds | Latest price of Alchemint
+alcx | Latest price of Alchemix
+ach | Latest price of Alchemy Pay
+aleph | Latest price of Aleph.im
+alex | Latest price of Alex
+algo | Latest price of Algorand
+alg | Latest price of Algory
+abbc | Latest price of ABBC
+alis | Latest price of ALIS
+allbi | Latest price of ALL BEST ICO
+afo | Latest price of All For One Business
+albt | Latest price of AllianceBlock
+acd | Latest price of Alliance Cargo Direct
+all | Latest price of Alliance Fan Token
+alv | Latest price of Allive
+me | Latest price of All.me
+aly | Latest price of Ally
+aloha | Latest price of Aloha
+alpa | Latest price of Alpaca
+alp | Latest price of ALP Coin
+acat | Latest price of Alphacat
+apc | Latest price of Alpha Coin
+dex | Latest price of AlphaDex
+alpha | Latest price of Alpha Finance
+ank | Latest price of AlphaLink
+aqt | Latest price of Alpha Quark Token
+xlq | Latest price of ALQO
+alc | Latest price of AlrightCoin
+alt | Latest price of AltEstate Token
+aln | Latest price of Aluna
+amb | Latest price of Ambrosus
+ame | Latest price of Amepay
+amio | Latest price of Amino Network
+amis | Latest price of AMIS
+amo | Latest price of AMO Coin
+amn | Latest price of Amon
+amon | Latest price of AmonD
+veo | Latest price of Amoveo
+ampl | Latest price of Ampleforth
+aapx | Latest price of AMPnet
+amp | Latest price of Amp
+anct | Latest price of Anchor
+anw | Latest price of Anchor Neural World Token
+adc | Latest price of Android chain
+afu | Latest price of Animal Friends United
+ani | Latest price of Animecoin
+anj | Latest price of Aragon Court
+ankr | Latest price of Ankr
+anon | Latest price of ANON
+amc | Latest price of Anonymous Coin
+xamp | Latest price of Antiample
+matter | Latest price of AntiMatter
+any | Latest price of ANYONE
+ape | Latest price of APEcoin
+cpx | Latest price of Apex Network
+aph | Latest price of APHolding Coin
+api3 | Latest price of API3
+apis | Latest price of APIS Coin
+apix | Latest price of APIX
+apm | Latest price of apM Coin
+apl | Latest price of Apollo
+xap | Latest price of Apollon Network
+appc | Latest price of AppCoins
+apx | Latest price of Appics
+apy | Latest price of APY.Finance
+aqua | Latest price of Aqua
+arco | Latest price of AquariusCoin
+ant | Latest price of Aragon
+araw | Latest price of ARAW Token
+abx | Latest price of Arbidex
+arb | Latest price of ARbit Coin
+arct | Latest price of ArbitrageCT
+abt | Latest price of Arcblock
+arcx | Latest price of ARC Governance
+arch | Latest price of Archer DAO Governance Token
+arx | Latest price of ARCS
+arc | Latest price of Advanced Technology Coin
+ardx | Latest price of ArdCoin
+ardr | Latest price of Ardor
+arepa | Latest price of Arepacoin
+arg | Latest price of Argentum
+aria20 | Latest price of Arianee
+ar | Latest price of Arix
+ark | Latest price of Ark
+armor | Latest price of ARMOR
+arnxm | Latest price of Armor NXM
+arm | Latest price of Armours
+arpa | Latest price of ARPA Chain
+arq | Latest price of ArQmA
+aby | Latest price of ArtByte
+aya | Latest price of Aryacoin
+asn | Latest price of Ascension
+xas | Latest price of Asch
+acc | Latest price of Asian-African Capital Chain
+asp | Latest price of Aspire
+asr | Latest price of AS Roma Fan Token
+atx | Latest price of Aston
+astr | Latest price of ASTR Coin
+astro | Latest price of Astro
+asa | Latest price of Asura
+atri | Latest price of Atari
+atb | Latest price of ATBCoin
+atd | Latest price of A2DAO
+ath | Latest price of Atheios
+atl | Latest price of Atlant
+atmos | Latest price of Atmos
+atn | Latest price of ATN
+awc | Latest price of Atomic Wallet Coin
+ag8 | Latest price of ATROMG8
+auction | Latest price of Bounce
+auc | Latest price of Auctus
+audio | Latest price of Audius
+rep | Latest price of Augur
+aunit | Latest price of Aunit
+are | Latest price of Aurei
+auscm | Latest price of Auric Network
+aur | Latest price of Aurix
+aoa | Latest price of Aurora
+idex | Latest price of IDEX
+awg | Latest price of AurusGOLD
+auto | Latest price of Auto
+niox | Latest price of Autonio
+avax | Latest price of Avalanche
+aval | Latest price of Avaluse
+avt | Latest price of Aventus
+axe | Latest price of Axe
+axel | Latest price of AXEL
+axiav3 | Latest price of Axia
+axs | Latest price of Axie Infinity
+axn | Latest price of Axion
+axis | Latest price of Axis DeFi
+axpr | Latest price of aXpire
+az | Latest price of Azbit
+azuki | Latest price of Azuki
+b20 | Latest price of B20
+b21 | Latest price of B21
+b2b | Latest price of B2Bcoin
+baas | Latest price of BaaSid
+bax | Latest price of BABB
+bpc | Latest price of BackPacker Coin
+bak | Latest price of BaconCoin
+badger | Latest price of Badger DAO
+brc | Latest price of Baer Chain
+bake | Latest price of BakeryToken
+bal | Latest price of Balancer
+bsp | Latest price of BallSwap
+balpha | Latest price of bAlpha
+bnana | Latest price of Chimpion
+banca | Latest price of Banca
+bnt | Latest price of Bancor Network Token
+band | Latest price of Band Protocol
+bcr | Latest price of Bankcoin Reserve
+bnk | Latest price of Bankera
+bkx | Latest price of BANKEX
+vlt | Latest price of Bankroll Vault
+bao | Latest price of Bao Finance
+bazt | Latest price of Baz Token
+bks | Latest price of Barkis Network
+bond | Latest price of BarnBridge
+bart | Latest price of BarterTrade
+base | Latest price of Base Protocol
+basic | Latest price of BASIC
+bat | Latest price of Basic Attention Token
+basid | Latest price of Basid Coin
+bcs | Latest price of Basis Coin Share
+bsd | Latest price of Basis Dollar
+bags | Latest price of Basis Gold Share (Heco)
+bast | Latest price of Bast
+bta | Latest price of Bata
+bva | Latest price of Bavala
+bbs | Latest price of BBSCoin
+bcat | Latest price of BCAT
+bcb | Latest price of BCB Blockchain
+bcdt | Latest price of BCdiploma-EvidenZ
+bcv | Latest price of BitCapitalVendor
+beam | Latest price of BEAM
+bfi | Latest price of Bearn.fi
+btzc | Latest price of BeatzCoin
+chat | Latest price of BeeChat
+bee | Latest price of BEE Coin
+bifi | Latest price of Beefy.Finance
+bkbt | Latest price of BeeKan / Beenews
+beet | Latest price of Beetle Coin
+btr | Latest price of BeeTR
+bela | Latest price of Belacoin
+bdx | Latest price of Beldex
+bel | Latest price of Bella Protocol
+bnp | Latest price of BenePit
+bsc | Latest price of Benscoin
+bwf | Latest price of Beowulf
+bern | Latest price of BERNcash
+bec | Latest price of Betherchip
+bepro | Latest price of BEPRO Network
+btrm | Latest price of Betrium
+bynd | Latest price of Beyondcoin
+bznt | Latest price of Bezant
+bez | Latest price of Bezop
+bgg | Latest price of Bgogo Token
+bbp | Latest price of BiblePay
+bix | Latest price of Bibox Token
+bid | Latest price of Bidao
+bdp | Latest price of BidiPass
+bfc | Latest price of Bifrost
+bbgc | Latest price of BigBang Game
+bbo | Latest price of Bigbom
+bbi | Latest price of BigBoys Industry
+biki | Latest price of BIKI
+bia | Latest price of Bilaxy Token
+tryb | Latest price of BiLira
+blry | Latest price of BillaryCoin
+blt | Latest price of Billetcoin
+bhc | Latest price of BillionHappiness
+btcb | Latest price of Binance Bitcoin
+bnb | Latest price of Binance Coin
+bidr | Latest price of BIDR
+bkrw | Latest price of Binance KRW
+busd | Latest price of Binance USD
+bvnd | Latest price of Binance VND
+bntx | Latest price of Bintex Futures
+bio | Latest price of BioCrypt
+btrn | Latest price of Biotron
+bis | Latest price of Bismuth
+bpx | Latest price of Bispex
+btb | Latest price of Bitball
+bay | Latest price of BitBay
+bbr | Latest price of Bitberry Token
+bbk | Latest price of BitBlocks
+bbt | Latest price of BitBoost
+bcna | Latest price of BitCanna
+bceo | Latest price of bitCEO
+bchc | Latest price of BitCherry
+btdx | Latest price of Bitcloud
+bpro | Latest price of BitCloud Pro
+ben | Latest price of BitCoen
+b2g | Latest price of Bitcoiin
+btc | Latest price of Bitcoin
+btc2 | Latest price of Bitcoin 2
+btca | Latest price of Bitcoin Anonymous
+bca | Latest price of Bitcoin Atom
+boss | Latest price of BitcoinBOSS
+cdy | Latest price of Bitcoin Candy
+bch | Latest price of Bitcoin Cash
+bcha | Latest price of Bitcoin Cash ABC
+bsv | Latest price of Bitcoin SV
+bxc | Latest price of Bitcoin Classic
+bc | Latest price of Bitcoin Confidential
+bcz | Latest price of Bitcoin CZ
+bcd | Latest price of Bitcoin Diamond
+bcf | Latest price of Bitcoin Fast
+btcf | Latest price of Bitcoin Final
+god | Latest price of Bitcoin God
+btg | Latest price of Bitcoin Gold
+bhd | Latest price of Bitcoin HD
+bth | Latest price of Bitcoin Hot
+xbi | Latest price of Bitcoin Incognito
+bci | Latest price of Bitcoin Interest
+bltg | Latest price of Block-Logic
+btcn | Latest price of BitcoiNote
+xbc | Latest price of Bitcoin Plus
+btcp | Latest price of Bitcoin Private
+btcred | Latest price of Bitcoin Red
+xrc | Latest price of xRhodium
+btcs | Latest price of Bitcoin Scrypt
+bsov | Latest price of BitcoinSoV
+btct | Latest price of BitcoinToken
+btcv | Latest price of BitcoinV
+bcx | Latest price of BitcoinX
+btcz | Latest price of BitcoinZ
+bm | Latest price of Bitcomo
+btx | Latest price of BitCore
+bic | Latest price of Bitcrex Coin
+btcr | Latest price of Bitcurate
+bdg | Latest price of BitDegree
+csno | Latest price of BitDice
+dns | Latest price of BitDNS
+xbx | Latest price of Bitex Global XBX Coin
+bfx | Latest price of Bitfex
+bf | Latest price of Bitforex Token
+bxt | Latest price of Bitfxt Coin
+bft | Latest price of Bitget DeFi Token
+xbg | Latest price of BitGrin
+plat | Latest price of BitGuild PLAT
+bt | Latest price of BitHash Token
+bih | Latest price of BitHostCoin
+stu | Latest price of bitJob
+kam | Latest price of BitKAM
+bmx | Latest price of BitMart Token
+btnt | Latest price of BitNautic
+btnyx | Latest price of BitOnyx Token
+best | Latest price of Bitpanda Ecosystem Token
+bpt | Latest price of Bitpayer Token
+bro | Latest price of Bitradio
+rntb | Latest price of BitRent
+bts | Latest price of BitShares
+btu | Latest price of Bitsou
+xbs | Latest price of BitStake
+bst | Latest price of Bitsten Token
+mat | Latest price of Matka
+bttr | Latest price of BitTiger
+btt | Latest price of BitTorrent
+biut | Latest price of Bit Trust System
+tube | Latest price of BitTube
+bwt | Latest price of Bittwatt
+but | Latest price of BitUP Token
+btv | Latest price of Bitvote
+btw | Latest price of BitWhite
+zny | Latest price of BitZeny
+bz | Latest price of BitZ Token
+bixb | Latest price of BixB Coin
+bizz | Latest price of BIZZCOIN
+bkk | Latest price of BKEX Chain
+blk | Latest price of BlackCoin
+hzt | Latest price of Black Diamond Rating
+bdt | Latest price of BlackDragon Token
+bmc | Latest price of Blackmoon Crypto
+blank | Latest price of Blank
+blast | Latest price of BLAST
+bstx | Latest price of Blastx
+bles | Latest price of Blind Boxes
+blink | Latest price of BLink
+xbp | Latest price of BlitzPredict
+bly | Latest price of Blocery
+ary | Latest price of Block Array
+bcdn | Latest price of BlockCDN
+bcug | Latest price of Blockchain Cuties Universe Governance
+bxa | Latest price of Blockchain Exchange Alliance
+bhp | Latest price of Blockchain of Hash Power
+bqt | Latest price of Blockchain Quotations Index Token
+bloc | Latest price of Blockcloud
+clout | Latest price of BLOCKCLOUT
+emb | Latest price of Overline Emblem
+bmh | Latest price of BlockMesh
+bux | Latest price of BUX Token
+tix | Latest price of Blocktix
+vee | Latest price of BLOCKv
+bloody | Latest price of Bloody Token
+blct | Latest price of Bloomzed Loyalty Club Ticket
+cdt | Latest price of Blox
+bep | Latest price of Blucon
+blue | Latest price of Blue Protocol
+blu | Latest price of Bluecoin
+bwx | Latest price of Blue Whale
+blz | Latest price of Bluzelle
+btmx | Latest price of Bitmax Token
+bmt | Latest price of BMCHAIN token
+bnc | Latest price of Bnoincoin
+bnsd | Latest price of BNSD Finance
+bns | Latest price of BNS Token
+bnx | Latest price of BTCNEXT Coin
+boa | Latest price of BOA
+bob | Latest price of Bob's Repair
+bog | Latest price of Bogged Finance
+boli | Latest price of Bolivarcoin
+bolt | Latest price of Bolt
+boltt | Latest price of BolttCoin
+btd | Latest price of Bolt Dollar
+bomb | Latest price of BOMB
+bondly | Latest price of Bondly
+bnf | Latest price of BonFi
+bonk | Latest price of BONK Token
+bono | Latest price of Bonorum
+bon | Latest price of Bonpay
+boob | Latest price of BooBank
+boom | Latest price of Boom Token
+bost | Latest price of BoostCoin
+bora | Latest price of BORA
+bor | Latest price of BoringDAO
+bos | Latest price of BOScoin
+bto | Latest price of Bottos
+botx | Latest price of BOTXCOIN
+bot | Latest price of Bounce [old]
+bnty | Latest price of Bounty0x
+bouts | Latest price of BoutsPro
+box | Latest price of BOX Token
+boxx | Latest price of Blockparty
+bqtx | Latest price of BQT
+brzx | Latest price of Braziliex Token
+brd | Latest price of Bread
+brze | Latest price of Breezecoin
+bmi | Latest price of Bridge Mutual
+brg | Latest price of Bridge Oracle
+brdg | Latest price of Bridge Protocol
+nor | Latest price of Noir
+brat | Latest price of BROTHER
+brz | Latest price of Brazilian Digital Token
+bsys | Latest price of BSYS
+btcl | Latest price of BTC Lite
+btcm | Latest price of BTCMoon
+btcst | Latest price of BTC Standard Hashrate Token
+bte | Latest price of BTEcoin
+btf | Latest price of Bitcoin Faith
+btse | Latest price of BTSE Token
+bubo | Latest price of Budbo
+bud | Latest price of Buddy
+cbx | Latest price of Bullion
+blc | Latest price of BullionsChain
+bu | Latest price of BUMO
+bun | Latest price of Bunnycoin
+buy | Latest price of Burency
+burger | Latest price of Burger Swap
+burst | Latest price of Burst
+bcac | Latest price of Business Credit Alliance Chain
+bfly | Latest price of Butterfly Protocol
+gldy | Latest price of Buzzshow
+bwb | Latest price of Bit World Token
+gbyte | Latest price of Obyte
+bcn | Latest price of Bytecoin
+btm | Latest price of Bytom
+byts | Latest price of Bytus
+bzrx | Latest price of bZx Protocol
+cach | Latest price of Cachecoin
+cgt | Latest price of CACHE Gold
+cas | Latest price of Cactus Finance
+cxp | Latest price of Caixa Pay
+cf | Latest price of Californium
+clo | Latest price of Callisto Network
+camp | Latest price of Camp
+cad | Latest price of Candy Protocol
+cann | Latest price of CannabisCoin
+can | Latest price of CanYaCoin
+cxc | Latest price of CAPITAL X CELL
+capp | Latest price of Cappasity
+cps | Latest price of Capricoin
+carbon | Latest price of Carboncoin
+cut | Latest price of Carbon Utility Token
+ada | Latest price of Cardano
+card | Latest price of Cardstack
+care | Latest price of Carebit
+cxo | Latest price of CargoX
+crt | Latest price of Carrot Finance
+cre | Latest price of Carry
+ctsi | Latest price of Cartesi
+cv | Latest price of carVertical
+cbc | Latest price of Cashbery Coin
+csc | Latest price of Casinocoin
+csp | Latest price of Caspian
+ctt | Latest price of Castweet
+catt | Latest price of Catex Token
+bree | Latest price of CBDAO
+cbe | Latest price of The Chain of Business Entertainment
+cc | Latest price of CC
+cco | Latest price of Ccore
+cdai | Latest price of cDAI
+ceek | Latest price of CEEK Smart VR Token
+celr | Latest price of Celer Network
+cell | Latest price of Cellframe
+celo | Latest price of Celo
+cusd | Latest price of Celo Dollar
+cel | Latest price of Celsius Network
+xcf | Latest price of Cenfura Token
+cntr | Latest price of Centaur
+cent | Latest price of CENTERCOIN
+cennz | Latest price of Centrality
+cns | Latest price of Centric
+cnt | Latest price of Centurion
+xce | Latest price of Cerium
+ctk | Latest price of CertiK
+chads | Latest price of CHADS VC
+chc | Latest price of Chaincoin
+chain | Latest price of Chain Games
+cgg | Latest price of Chain Guardians
+chx | Latest price of WeOwn
+link | Latest price of Chainlink
+cpay | Latest price of Chainpay
+pcx | Latest price of ChainX
+chan | Latest price of ChanCoin
+cag | Latest price of Change
+now | Latest price of Now Token
+cha | Latest price of Chaucha
+cheese | Latest price of CHEESE
+chess | Latest price of ChessCoin
+kfc | Latest price of Chicken
+chi | Latest price of Chi Gastoken
+chz | Latest price of Chiliz
+chonk | Latest price of Chonk
+chow | Latest price of Chow Chow Finance
+chr | Latest price of Chromia
+day | Latest price of Chronologic
+cnd | Latest price of Cindicator
+cir | Latest price of CircleSwap
+coval | Latest price of Circuits of Value
+ctl | Latest price of Citadel
+cvc | Latest price of Civic
+cvt | Latest price of Civitas Protocol
+clam | Latest price of Clams
+cct | Latest price of Clap Clap Token
+sct | Latest price of Clash Token
+clb | Latest price of CLBcoin
+clr | Latest price of Clear Coin
+cti | Latest price of ClinTex CTi
+cloak | Latest price of Cloakcoin
+clv | Latest price of Clover
+cai | Latest price of Club Atletico Independiente Fan Token
+club | Latest price of Clubcoin
+cnn | Latest price of Content Neutrality Network
+cnns | Latest price of CNNS
+cnyt | Latest price of CNY Tether
+coal | Latest price of Coalculus
+cbk | Latest price of Cobak Token
+cob | Latest price of Cobinhood
+coc | Latest price of cocktailbar.finance
+cocos | Latest price of COCOS BCX
+codeo | Latest price of CODEO TOKEN
+cnx | Latest price of Cofinex
+cofi | Latest price of CoFiX
+cft | Latest price of CoinBene Future Token
+cim | Latest price of COINCOME
+cdl | Latest price of CoinDeal Token
+cet | Latest price of CoinEx Token
+amlt | Latest price of AMLT Network
+cht | Latest price of CoinHe Token
+cl | Latest price of Coinlancer
+lion | Latest price of CoinLion
+meet | Latest price of CoinMeet
+coi | Latest price of Coinnec
+chp | Latest price of CoinPoker
+cnb | Latest price of Coinsbit Token
+cen | Latest price of Coinsuper Ecosystem Network
+orox | Latest price of Cointorox
+cnus | Latest price of CoinUs
+co2 | Latest price of Collective
+colx | Latest price of ColossusXT
+comp | Latest price of Compound Coin
+cp3r | Latest price of Compounder
+ceth | Latest price of cETH
+cusdc | Latest price of cUSDC
+cusdt | Latest price of cUSDT
+cms | Latest price of COMSA
+ccx | Latest price of Conceal
+cvp | Latest price of PowerPool Concentrated Voting Power
+ava | Latest price of Travala.com
+cfx | Latest price of Conflux Token
+cnct | Latest price of Connect
+cjt | Latest price of ConnectJob
+cntm | Latest price of Connectome
+ecell | Latest price of Consensus Cell Network
+csm | Latest price of Consentium
+dag | Latest price of Constellation
+cos | Latest price of Contentos
+cvnt | Latest price of Content Value Network
+ctcn | Latest price of Contracoin
+coral | Latest price of Coral Swap
+crc | Latest price of Core-Chip
+cor | Latest price of Coreto
+corx | Latest price of CorionX
+ctxc | Latest price of Cortex
+cosm | Latest price of Cosmo Coin
+atom | Latest price of Cosmos
+cot | Latest price of Cosplay Token
+coti | Latest price of COTI
+cou | Latest price of Couchain
+cca | Latest price of Counos Coin
+xcp | Latest price of Counterparty
+cova | Latest price of Cova Unity
+cover | Latest price of Cover Protocol
+cov | Latest price of Covesting
+cpc | Latest price of CPChain
+cpt | Latest price of CPT
+crave | Latest price of Crave
+crdt | Latest price of CRDT
+crm | Latest price of Creamcoin
+cream | Latest price of Cream
+crea | Latest price of CREA
+credit | Latest price of TerraCredit
+ctc | Latest price of Creditcoin
+creed | Latest price of Creed Finance
+creva | Latest price of Crevacoin
+croat | Latest price of CROAT
+cmct | Latest price of Crowd Machine
+crd | Latest price of Crowd One
+crw | Latest price of Crown
+cws | Latest price of Crowns
+cru | Latest price of Crust Network
+cbt | Latest price of CryBet
+crypt | Latest price of CryptCoin
+crx | Latest price of CryptEx
+cryp | Latest price of Cryptic Coin
+c20 | Latest price of CRYPTO20
+cbm | Latest price of CryptoBonusMiles
+cbucks | Latest price of CRYPTOBUCKS
+ccrb | Latest price of CryptoCarbon
+cron | Latest price of Cryptocean
+cro | Latest price of Crypto.com Coin
+cc10 | Latest price of Cryptocurrency Top 10 Index
+cnrg | Latest price of CryptoEnergy
+xchf | Latest price of CryptoFranc
+gold | Latest price of CryptoGalaxy
+chft | Latest price of Crypto Holding Frank Token
+cix100 | Latest price of Cryptoindex.com 100
+kek | Latest price of CryptoKek
+cyt | Latest price of Cryptokenz
+cpi | Latest price of Crypto Price Index
+cp | Latest price of CryptoProfile
+cst | Latest price of Cryptosolartech
+cspn | Latest price of Crypto Sports
+ctask | Latest price of CryptoTask
+cvcc | Latest price of CryptoVerificationCoin
+cva | Latest price of Crypto Village Accelerator
+cwv | Latest price of CryptoWorld.VIP
+cyl | Latest price of Crystal Token
+cstl | Latest price of Castle
+cbix | Latest price of Cubiex
+cudos | Latest price of Cudos
+xcur | Latest price of Curate
+cure | Latest price of Curecoin
+cur | Latest price of Curio
+curry | Latest price of CurrySwap
+crv | Latest price of Curve DAO Token
+cust | Latest price of Custody Token
+ccn | Latest price of Custom contract network
+core | Latest price of cVault.finance
+cfi | Latest price of CyberFi
+cmt | Latest price of CyberMiles
+cyc | Latest price of Cyclone Protocol
+dacc | Latest price of DACC
+dacs | Latest price of Dacsee
+dax | Latest price of DAEX
+dafi | Latest price of Dafi Protocol
+dai | Latest price of Dai
+dic | Latest price of Daikicoin
+df | Latest price of Daily Funds
+daofi | Latest price of DAOfi
+dao | Latest price of DAO Maker
+gen | Latest price of DAOstack
+dapp | Latest price of LiquidApps
+dappt | Latest price of Dapp.com
+dlx | Latest price of DAppLinks
+daps | Latest price of DAPS Coin
+dark | Latest price of Dark.Build v1
+dbund | Latest price of DarkBundles
+dec | Latest price of Dark Energy Crystals
+disk | Latest price of DarkLisk
+dmt | Latest price of Dark Matter
+d4rk | Latest price of DARK
+kton | Latest price of Darwinia Commitment Token
+ring | Latest price of Darwinia Network Native Token
+grn | Latest price of GreenPower
+dash | Latest price of Dash
+dsc | Latest price of Dash Cash
+dta | Latest price of DATA
+dtx | Latest price of DaTa eXchange Token
+dtc | Latest price of Datacoin
+dam | Latest price of Datamine
+dtrc | Latest price of Datarius Credit
+dat | Latest price of Datum
+datx | Latest price of DATx
+dav | Latest price of DAV Network
+dvs | Latest price of Davies
+dac | Latest price of Davinci Coin
+dawn | Latest price of Dawn Protocol
+dili | Latest price of D Community
+dds | Latest price of DDS.Store
+dea | Latest price of DEA
+dep | Latest price of DEAPCOIN
+dbtc | Latest price of Debitcoin
+deb | Latest price of Debitum Network
+desh | Latest price of DeCash
+dct | Latest price of Decent
+dbet | Latest price of DecentBet
+mana | Latest price of Decentraland
+dad | Latest price of DAD
+ddam | Latest price of Decentralized Data Assets Management
+dml | Latest price of Decentralized Machine Learning Protocol
+dmc | Latest price of Decentralized Mining Exchange
+deor | Latest price of Decentralized Oracle
+dvp | Latest price of Decentralized Vulnerability Platform
+dtep | Latest price of Decoin
+craft | Latest price of deCraft Finance
+dcr | Latest price of Decred
+dbc | Latest price of DeepBrain Chain
+deep | Latest price of DeepCloud AI
+onion | Latest price of DeepOnion
+deex | Latest price of Deex
+defo | Latest price of DefHold
+dfi | Latest price of DeFiChain
+cliq | Latest price of DefiCliq
+dfd | Latest price of DefiDollar DAO
+dfgl | Latest price of DeFi Gold
+fin | Latest price of DeFiner
+dfx | Latest price of Definitex
+pie | Latest price of DeFiPie
+dpi | Latest price of DeFiPulse Index
+dfs | Latest price of Defis Network
+dfsocial | Latest price of DefiSocial
+defi5 | Latest price of DEFI Top 5 Index
+dwz | Latest price of DeFi Wizard
+dyp | Latest price of DeFi Yield Protocol
+defla | Latest price of Defla
+deflct | Latest price of Deflect
+dgvc | Latest price of DegenVC
+dego | Latest price of Dego Finance
+degov | Latest price of Degov
+ira | Latest price of Diligence
+dpy | Latest price of Delphy
+d | Latest price of Denarius
+dent | Latest price of Dent
+dcn | Latest price of Dentacoin
+don | Latest price of DEONEX Token
+deri | Latest price of Deri Protocol
+dero | Latest price of Dero
+dsr | Latest price of Desire
+dth | Latest price of Dether
+dem | Latest price of Deutsche eMark
+eve | Latest price of Devery
+dev | Latest price of Deviant Coin
+dxc | Latest price of Dexchain
+dexe | Latest price of DeXe
+dxf | Latest price of Dexfin
+dexm | Latest price of Dexmex
+dexg | Latest price of Dextoken Governance
+dxo | Latest price of Dextro
+dht | Latest price of dHEDGE DAO
+dia | Latest price of DIA
+dmd | Latest price of Diamond
+dpt | Latest price of Diamond Platform Token
+digg | Latest price of DIGG
+dgb | Latest price of DigiByte
+dgcl | Latest price of DigiCol Token
+ddr | Latest price of Digi Dinar
+ddrt | Latest price of DigiDinar Token
+xdb | Latest price of DigitalBits
+dgc | Latest price of Digitalcoin
+xdn | Latest price of DigitalNote
+dp | Latest price of DigitalPrice
+dzar | Latest price of Digital Rand
+dwc | Latest price of Digital Wallet
+dgtx | Latest price of Digitex Token
+dgd | Latest price of DigixDAO
+dgx | Latest price of Digix Gold
+dim | Latest price of DIMCOIN
+dime | Latest price of Dimecoin
+eon | Latest price of Dimension
+dcy | Latest price of Dinastycoin
+din | Latest price of Dinero
+dip | Latest price of Dipper
+dnt | Latest price of district0x
+distx | Latest price of DistX
+deve | Latest price of Divert Finance
+divi | Latest price of Divi
+divo | Latest price of DIVO Token
+dka | Latest price of dKargo
+dkkt | Latest price of DKK Token
+dmg | Latest price of DMM: Governance
+dmst | Latest price of DMScript
+dmtc | Latest price of Demeter Chain
+note | Latest price of DNotes
+dock | Latest price of Dock
+dms | Latest price of Documentchain
+dodo | Latest price of DODO
+drm | Latest price of DoDreamChain
+dogec | Latest price of DogeCash
+doge | Latest price of Dogecoin
+dogy | Latest price of DogeYield
+dogz | Latest price of Dogz
+doki | Latest price of Doki Doki
+dola | Latest price of Dola USD Stablecoin
+dollar | Latest price of Dollar INTERNATIONAL
+drt | Latest price of DomRaider
+dope | Latest price of DopeCoin
+dora | Latest price of Dora Factory
+dos | Latest price of DOS Network
+dov | Latest price of Dovu
+rating | Latest price of DPRating
+drc | Latest price of Dracula Token
+dft | Latest price of DraftCoin
+drgn | Latest price of Dragonchain
+drg | Latest price of Dragon Coin
+dream | Latest price of DreamsCoin
+drep | Latest price of Drep
+dbix | Latest price of DubaiCoin-DBIX
+ducato | Latest price of Ducato Protocol Token
+ddim | Latest price of DuckDaoDime
+dun | Latest price of Dune
+dusk | Latest price of DUSK Network
+dx | Latest price of DxChain Token
+dxd | Latest price of DXdao
+dyn | Latest price of Dynamic
+dtr | Latest price of Dynamic Trading Rights
+dynmt | Latest price of DYNAMITE Token
+eac | Latest price of Earthcoin
+earth | Latest price of Earth Token
+esti | Latest price of Easticoin
+easy | Latest price of EasyFi
+emt | Latest price of easyMine
+ea | Latest price of EA Token
+eauric | Latest price of Eauric
+ebk | Latest price of Ebakus
+ebtc | Latest price of eBitcoin
+ebst | Latest price of eBoost
+echt | Latest price of e-Chat
+ec | Latest price of Echoin
+eko | Latest price of EchoLink
+aba | Latest price of EcoBall
+ecob | Latest price of Ecobit
+ecoc | Latest price of Ecochain
+egc | Latest price of EcoG9coin
+omi | Latest price of ECOMI
+ecoreal | Latest price of Ecoreal Estate
+evc | Latest price of Eco Value Coin
+ecp | Latest price of ECP+ Technology
+edda | Latest price of EDDASwap
+edn | Latest price of Edenchain
+edg | Latest price of Edgeless
+edrc | Latest price of EDRCoin
+ekt | Latest price of EDUCare
+ledu | Latest price of Education Ecosystem
+edu | Latest price of Educoin
+emc | Latest price of EduMetrix Coin
+efx | Latest price of Effect.AI
+ett | Latest price of Efficient Transaction Token
+egt | Latest price of Egretia
+ehash | Latest price of EHash
+edo | Latest price of Eidoo
+ehrt | Latest price of Eight Hours
+emc2 | Latest price of Einsteinium
+elama | Latest price of Elamachain
+ela | Latest price of Elastos
+erd | Latest price of ELDORADO TOKEN
+eca | Latest price of Electra
+elec | Latest price of Electrify.Asia
+etn | Latest price of Electroneum
+e2c | Latest price of Electronic Energy Coin
+efl | Latest price of Electronic Gulden
+eld | Latest price of Electrum Dark
+ele | Latest price of Elementrem
+evt | Latest price of Elevation Token
+eum | Latest price of Elitium
+ella | Latest price of Ellaism
+egld | Latest price of Elrond
+eltcoin | Latest price of Eltcoin
+lex | Latest price of Elxis
+el | Latest price of ELYSIA
+ely | Latest price of Elysian
+emd | Latest price of Emerald Crypto
+em | Latest price of Eminer
+emrx | Latest price of Emirex Token
+ngm | Latest price of e-Money
+esd | Latest price of Empty Set Dollar
+emrals | Latest price of Emrals
+edr | Latest price of Endor Protocol Token
+nrg | Latest price of Energi
+enrg | Latest price of Energycoin
+elx | Latest price of Energy Ledger
+ewt | Latest price of Energy Web Token
+egcc | Latest price of Engine
+eng | Latest price of Enigma
+enj | Latest price of Enjin Coin
+enk | Latest price of Enkronos
+enq | Latest price of Enecuum
+etm | Latest price of En-Tan-Mo
+entrc | Latest price of EnterCoin
+etf | Latest price of Entherfound
+entone | Latest price of Entone
+enu | Latest price of Enumivo
+evn | Latest price of Envion
+eos | Latest price of EOS
+eosdac | Latest price of eosDAC
+eosc | Latest price of EOSForce
+eql | Latest price of Equal
+eosdt | Latest price of EOSDT
+eqt | Latest price of EquiTrader
+exrd | Latest price of e-Radix
+es | Latest price of Era Swap Token
+erc20 | Latest price of ERC20
+erg | Latest price of Ergo
+ert | Latest price of Eristica token
+ero | Latest price of Eroscoin
+qusd | Latest price of QUSD
+esn | Latest price of EscudoNavacense
+escx | Latest price of ESCX Token
+esp | Latest price of Espers
+esbc | Latest price of ESBC
+ess | Latest price of Essentia
+xbase | Latest price of Eterbase Utility Token
+ent | Latest price of Eternity
+tfd | Latest price of ETF Dao
+eth2 | Latest price of Eth 2.0 Staking by Pool-X
+etha | Latest price of ETHA Lend
+arte | Latest price of Items
+heal | Latest price of Etheal
+etho | Latest price of Ether-1
+ete | Latest price of Ethercoin
+eth | Latest price of Ethereum
+ecash | Latest price of Ethereum Cash
+etc | Latest price of Ethereum Classic
+ety | Latest price of Ethereum Cloud
+eer | Latest price of Ethereum eRush
+etg | Latest price of Ethereum Gold
+etgp | Latest price of Ethereum Gold Project
+elite | Latest price of Ethereum Lite
+ethm | Latest price of Ethereum Meta
+ethv | Latest price of Ethereum Vault
+egem | Latest price of EtherGem
+eti | Latest price of EtherInc
+eland | Latest price of Etherland
+ern | Latest price of Ethernity Chain
+fuel | Latest price of Etherparty
+ethpy | Latest price of Etherpay
+esz | Latest price of EtherSportz
+etz | Latest price of Ether Zero
+lend | Latest price of Aave [OLD]
+horse | Latest price of Ethorse
+vgx | Latest price of Voyager Token
+ethplo | Latest price of ETHplode
+ethp | Latest price of ETHPlus
+eurx | Latest price of eToro Euro
+nzdx | Latest price of eToro New Zealand Dollar
+gbpx | Latest price of eToro Pound Sterling
+euno | Latest price of EUNO
+erk | Latest price of Eureka Coin
+ecte | Latest price of EurocoinToken
+erc | Latest price of EuropeCoin
+eved | Latest price of Evedo
+evx | Latest price of Everex
+id | Latest price of Everest
+evr | Latest price of Everus
+evy | Latest price of EveryCoin
+eoc | Latest price of EveryonesCrypto
+evil | Latest price of Evil Coin
+cavo | Latest price of Excavo Finance
+exn | Latest price of ExchangeN
+exp | Latest price of Exchange Payment Coin
+xuc | Latest price of Exchange Union
+xjp | Latest price of eXciting Japan Coin
+excl | Latest price of ExclusiveCoin
+xed | Latest price of Exeedme
+exm | Latest price of EXMO Coin
+exmr | Latest price of EXMR FDN
+exo | Latest price of Exosis
+exy | Latest price of Experty
+exrn | Latest price of EXRNchain
+face | Latest price of Faceter
+fct | Latest price of Factom
+fair | Latest price of Faircoin
+fai | Latest price of Fairum
+fldt | Latest price of FairyLand
+flp | Latest price of Falopa
+fti | Latest price of FansTime
+ftm | Latest price of Fantom
+bar | Latest price of FC Barcelona Fan Token
+ftc | Latest price of Feathercoin
+tips | Latest price of Fedoracoin
+feg | Latest price of FEG Token
+frm | Latest price of Ferrum Network
+fet | Latest price of Fetch.ai
+fey | Latest price of Feyorra
+fo | Latest price of FIBOS
+filda | Latest price of Filda
+fil | Latest price of Filecoin
+fn | Latest price of Filenet
+fst | Latest price of FileStorm
+fvt | Latest price of Finance Vote
+fnx | Latest price of FinanceX token
+fnb | Latest price of FinexboxToken
+fnk | Latest price of Finiko
+fnsp | Latest price of Finswap
+fntb | Latest price of FinTab
+ftx | Latest price of FintruX
+fxf | Latest price of Finxflo
+fio | Latest price of FIO Protocol
+fire | Latest price of FIRE
+flot | Latest price of Fire Lotto
+ffyi | Latest price of Fiscus FYI
+fsc | Latest price of Five Star Coin
+fk | Latest price of FK Coin
+fma | Latest price of Flama
+flm | Latest price of Flamingo Finance
+flap | Latest price of Flapp
+flash | Latest price of Flash
+fleta | Latest price of FLETA
+flex | Latest price of FLEX Coin
+fls | Latest price of Flits
+flt | Latest price of Flit Token
+flixx | Latest price of Flixxo
+flo | Latest price of FLO
+flow | Latest price of Flow
+flc | Latest price of Flowchain
+fyp | Latest price of FlypMe
+fme | Latest price of FME
+fmg | Latest price of FM Gallery
+foam | Latest price of FOAM
+foin | Latest price of Foin
+fldc | Latest price of Foldingcoin
+font | Latest price of Font
+xfc | Latest price of Football Coin
+for | Latest price of ForTube
+pton | Latest price of Foresting
+forex | Latest price of FOREXCOIN
+fkx | Latest price of FortKnoxster
+fota | Latest price of Fortuna
+fsbt | Latest price of FSBT API
+ftn | Latest price of Fountain
+foxt | Latest price of Fox Trading Token
+frax | Latest price of Frax
+fxs | Latest price of Frax Share
+fred | Latest price of FRED Energy
+free | Latest price of FREE coin
+fcn | Latest price of FreelancerChain
+fl | Latest price of Freeliquid
+ftt | Latest price of FreeTip
+fwt | Latest price of Freeway Token
+frc | Latest price of Freicoin
+edi | Latest price of Freight Trust Network
+fdr | Latest price of French Digital Reserve
+fdz | Latest price of Friendz
+front | Latest price of Frontier
+fsn | Latest price of FUSION
+fsw | Latest price of Falconswap
+fjc | Latest price of Fujicoin
+fmta | Latest price of Fundamenta
+func | Latest price of FunTime Coin
+combo | Latest price of Furucombo
+fuse | Latest price of Fuse
+ftxt | Latest price of FUTURAX
+fc | Latest price of FuturesCoin
+fto | Latest price of FuturoCoin
+fxt | Latest price of FuzeX
+fuzz | Latest price of FuzzBalls
+fx | Latest price of Function X
+fxp | Latest price of FXPay
+fyz | Latest price of Fyooz
+fyznft | Latest price of Fyooz NFT
+gfarm2 | Latest price of Gains V2
+gala | Latest price of Gala
+gc | Latest price of Galaxy Wallet
+gali | Latest price of Galilel
+gmb | Latest price of GAMB
+gmt | Latest price of Gambit
+gtc | Latest price of Game
+gbt | Latest price of GameBet
+gmc | Latest price of Game Chain
+game | Latest price of GameCredits
+gst | Latest price of Game Stars
+gswap | Latest price of Gameswap
+gxc | Latest price of GameXCoin
+gana | Latest price of GANA
+gap | Latest price of Gapcoin
+grlc | Latest price of Garlicoin
+gas | Latest price of Gas
+gasg | Latest price of Gasgains
+gasp | Latest price of gAsp
+gst2 | Latest price of GasToken
+fork | Latest price of GastroAdvisor
+gat | Latest price of Gatcoin
+gt | Latest price of GateToken
+gth | Latest price of Gather
+gze | Latest price of GazeCoin
+gbx | Latest price of Gbrick
+gcn | Latest price of GCN Coin
+geeq | Latest price of GEEQ
+gxt | Latest price of Gem Exchange And Trading
+gusd | Latest price of Gemini Dollar
+gnx | Latest price of Genaro Network
+ge | Latest price of Genesis Ecology
+genx | Latest price of Genesis Network
+gvt | Latest price of Genesis Vision
+geo | Latest price of Geocoin
+gera | Latest price of Gera Coin
+gysr | Latest price of Geyser
+gsr | Latest price of GeyserCoin
+ggc | Latest price of Global Game Coin
+ghost | Latest price of GHOST
+gic | Latest price of Giant
+gto | Latest price of Gifto
+wtt | Latest price of Giga Watt Token
+gmr | Latest price of Gimmer
+gin | Latest price of GINcoin
+gleec | Latest price of Gleec Coin
+glch | Latest price of Glitch Protocol
+bsty | Latest price of GlobalBoost-Y
+cnc | Latest price of Global China Cash
+glc | Latest price of GlobalCoin
+call | Latest price of Global Crypto Alliance
+gdc | Latest price of Global Digital Content
+ght | Latest price of Global Human Trust
+gsc | Latest price of Global Social Chain
+glt | Latest price of GlobalToken
+gve | Latest price of Globalvillage Ecosystem
+gex | Latest price of Globex
+glox | Latest price of Glox Finance
+gno | Latest price of Gnosis
+gny | Latest price of GNY
+goat | Latest price of Goat Cash
+gbcr | Latest price of Gold BCR
+gbk | Latest price of Goldblock
+gcr | Latest price of Gold Coin Reserve
+gnto | Latest price of GoldeNugget
+gldr | Latest price of Golder Coin
+gix | Latest price of GoldFinX
+gfun | Latest price of GoldFund
+mntp | Latest price of Goldmint
+gldx | Latest price of Goldnero
+gp | Latest price of GoldPieces
+gpkr | Latest price of Gold Poker
+glm | Latest price of Golem
+gof | Latest price of Golff
+gom2 | Latest price of GoMoney2
+goss | Latest price of GOSSIP-Coin
+gum | Latest price of Gourmet Galaxy
+gzil | Latest price of governance ZIL
+gdao | Latest price of Governor DAO
+govi | Latest price of Govi
+gmat | Latest price of GoWithMi
+gpu | Latest price of GPU Coin
+grft | Latest price of Graft Blockchain
+gio | Latest price of Graviocoin
+gre | Latest price of Greencoin
+grid | Latest price of GridPlus
+grc | Latest price of Gridcoin
+grin | Latest price of Grin
+grs | Latest price of Groestlcoin
+grwi | Latest price of GrowersCoin
+grw | Latest price of GrowthCoin
+gro | Latest price of GROWTH DeFi
+grpl | Latest price of GRPL Finance
+gse | Latest price of GSENetwork
+gsm | Latest price of GSMcoin
+gdr | Latest price of Guider
+nlg | Latest price of Gulden
+gun | Latest price of Guncoin
+guns | Latest price of GUNS
+gusdt | Latest price of Global Utility Smart Digital Token
+hai | Latest price of Hacken Token
+hac | Latest price of Hackspace Capital
+hakka | Latest price of Hakka Finance
+hlc | Latest price of HalalChain
+hal | Latest price of Halcyon
+halo | Latest price of Halo Platform
+hana | Latest price of Hanacoin
+hns | Latest price of Handshake
+hapi | Latest price of HAPI
+hpc | Latest price of Happycoin
+hart | Latest price of Hara Token
+hard | Latest price of HARD Protocol
+hbo | Latest price of Hash Bridge Oracle
+hbx | Latest price of HashBX
+hsc | Latest price of HashCoin
+gard | Latest price of Hashgard
+hnb | Latest price of HashNet BitEco
+hss | Latest price of Hashshare
+htr | Latest price of Hathor
+xhv | Latest price of Haven
+het | Latest price of HavEtherToken
+snx | Latest price of Synthetix Network Token
+haz | Latest price of Hazza
+hdac | Latest price of Hyundai DAC
+hp | Latest price of Healing Plus
+hb | Latest price of HeartBout
+hebe | Latest price of Hebeblock
+hbar | Latest price of Hedera Hashgraph
+hget | Latest price of Hedget
+hegic | Latest price of Hegic
+hnt | Latest price of Helium
+mhlx | Latest price of HelixNetwork
+hnc | Latest price of Hellenic Coin
+hgt | Latest price of HelloGold
+hlp | Latest price of HLP Token
+herb | Latest price of Herbalist Token
+hez | Latest price of Hermez Network
+play | Latest price of HEROcoin
+her | Latest price of Hero Node Token
+raise | Latest price of Raise Token
+hex | Latest price of HEX
+xhi | Latest price of HiCoin
+hpb | Latest price of High Performance Blockchain
+hippo | Latest price of HippoFinance
+hta | Latest price of Historia
+hit | Latest price of HitChain
+htc | Latest price of Hitcoin
+hive | Latest price of Hive
+hbd | Latest price of Hive Dollar
+hvn | Latest price of Hiveterminal token
+hbn | Latest price of Hobonickels
+hodl | Latest price of HOdlcoin
+hoge | Latest price of Hoge Finance
+7add | Latest price of Holdtowin
+hcc | Latest price of Holiday Chain
+hgold | Latest price of HollyGold
+hot | Latest price of Holo
+holy | Latest price of Holyheld (OLD)
+hh | Latest price of Holyheld
+hmr | Latest price of Homeros
+homi | Latest price of HOMIHELP
+usdh | Latest price of HonestCoin
+hopr | Latest price of HOPR
+hqx | Latest price of HOQU
+pot | Latest price of Hotpot Base Token
+udoo | Latest price of Hyprr (Howdoo)
+hrd | Latest price of Hoard Token
+hc | Latest price of HyperCash
+hd | Latest price of HubDao
+hmq | Latest price of Humaniq
+hum | Latest price of Humanscape
+hunt | Latest price of HUNT
+hpt | Latest price of Huobi Pool Token
+ht | Latest price of Huobi Token
+hup | Latest price of HUPAYX
+hur | Latest price of Hurify
+husd | Latest price of HUSD
+hush | Latest price of Hush
+husl | Latest price of Hustle Token
+entrp | Latest price of Hut34 Entropy
+hxro | Latest price of Hxro
+hyc | Latest price of Hycon
+hydra | Latest price of Hydra
+hydro | Latest price of Hydro
+hdao | Latest price of HyperDAO
+hyn | Latest price of Hyperion
+hqt | Latest price of HyperQuant
+hyp | Latest price of HyperStake
+i0c | Latest price of I0Coin
+i9c | Latest price of i9 Coin
+ibank | Latest price of iBank
+icx | Latest price of ICON
+ich | Latest price of IdeaChain
+deal | Latest price of IdealCash
+idea | Latest price of Ideaology
+idna | Latest price of Idena
+idxm | Latest price of IDEX Membership
+dext | Latest price of DexTools
+idk | Latest price of IDK
+ieth | Latest price of iETH
+rlc | Latest price of iExec RLC
+ift | Latest price of IFToken
+igg | Latest price of IG Gold
+ignis | Latest price of Ignis
+ic | Latest price of Ignition
+ig | Latest price of IGToken
+iht | Latest price of IHT Real Estate Protocol
+ilc | Latest price of ILCOIN
+img | Latest price of ImageCoin
+impulse | Latest price of Impulse By FDR
+ven | Latest price of ImpulseVen
+ims | Latest price of IMSWallet
+nka | Latest price of IncaKoin
+incnt | Latest price of Incent
+in | Latest price of InCoin
+idh | Latest price of indaHash
+idx | Latest price of Index Chain
+index | Latest price of Index Cooperative
+ndx | Latest price of Indexed Finance
+ind | Latest price of Indorse
+ifc | Latest price of Infinitecoin
+inft | Latest price of Infinito
+xin | Latest price of Infinity Economics
+iflt | Latest price of InflationCoin
+infx | Latest price of Influxcoin
+inj | Latest price of Injective Protocol
+ink | Latest price of Ink
+ilk | Latest price of INLOCK
+inx | Latest price of InMax
+dit | Latest price of Direct Insurance Token
+inn | Latest price of Innova
+ibp | Latest price of Innovation Blockchain Payment
+ino | Latest price of Ino Coin
+inrt | Latest price of INRToken
+itf | Latest price of Ins3.Finance Coin
+insn | Latest price of INSaNe
+inb | Latest price of Insight Chain
+instar | Latest price of INSTAR
+insur | Latest price of InsurAce
+sure | Latest price of inSure DeFi
+infi | Latest price of Insured Finance
+ipl | Latest price of InsurePal
+isr | Latest price of Insureum
+ixt | Latest price of iXledger
+iqc | Latest price of Intelligence Quickly Chain
+iic | Latest price of Intelligent Investment Chain
+itt | Latest price of Intelligent Trading Foundation
+ine | Latest price of IntelliShare
+lthn | Latest price of Lethean
+int | Latest price of INT
+iop | Latest price of Internet of People
+inxt | Latest price of Internxt
+trop | Latest price of Interop
+invc | Latest price of Investcoin
+idt | Latest price of InvestDigital
+ihf | Latest price of Invictus Hyperion Fund
+ioc | Latest price of I/O Coin
+ioex | Latest price of ioeX
+ion | Latest price of ION
+ionc | Latest price of IONChain
+iost | Latest price of IOST
+miota | Latest price of IOTA
+itc | Latest price of IoT Chain
+iotx | Latest price of IoTeX
+iown | Latest price of iOWN Token
+ipc | Latest price of IPChain
+post | Latest price of IPSE
+ipx | Latest price of Tachyon Protocol
+iqn | Latest price of IQeon
+iris | Latest price of IRISnet
+itl | Latest price of Italian Lira
+itam | Latest price of ITAM Games
+iti | Latest price of iTicoin
+itoc | Latest price of ITOChain Token
+ing | Latest price of Iungo
+ivy | Latest price of Ivy Mining
+ixc | Latest price of Ixcoin
+xxa | Latest price of Ixinium
+izer | Latest price of IZEROIUM
+izi | Latest price of IZIChain
+jfi | Latest price of JackPool.finance
+jar | Latest price of Jarvis+
+jrt | Latest price of Jarvis Reward Token
+jdc | Latest price of JD Coin
+jmc | Latest price of Jemoo Community
+jet | Latest price of Jetcoin
+jwl | Latest price of Jewel
+jiaozi | Latest price of Jiaozi
+jnt | Latest price of Jibrel Network
+job | Latest price of Jobchain
+jobs | Latest price of Jobscoin
+joint | Latest price of Joint Ventures
+xjo | Latest price of Joulecoin
+joys | Latest price of JOYS
+jgn | Latest price of Juggernaut
+jui | Latest price of JUIICE
+jul | Latest price of JustLiquidity
+juld | Latest price of JulSwap
+jump | Latest price of Jumpcoin
+jup | Latest price of Jupiter
+jst | Latest price of JUST
+winr | Latest price of JustBet
+julb | Latest price of JustLiquidity Binance
+usdj | Latest price of JUST Stablecoin
+juv | Latest price of Juventus Fan Token
+kda | Latest price of Kadena
+kal | Latest price of Kaleido
+klks | Latest price of Kalkulus
+kat | Latest price of Kambria
+kan | Latest price of BitKan
+kbc | Latest price of Karatgold Coin
+krb | Latest price of Karbo
+kai | Latest price of KardiaChain
+karma | Latest price of Karma DAO
+katana | Latest price of Katana Finance
+kava | Latest price of Kava.io
+kgw | Latest price of KAWANGGAWA
+kcash | Latest price of Kcash
+kdag | Latest price of King DAG
+kp3r | Latest price of Keep3rV1
+kp4r | Latest price of Keep4r
+keep | Latest price of Keep Network
+key | Latest price of Key
+kec | Latest price of Keyco
+ken | Latest price of Keysians Network
+tango | Latest price of keyTango
+kimchi | Latest price of KIMCHI.finance
+kmx | Latest price of KIMEX
+kin | Latest price of Kin
+kind | Latest price of Kind Ads Token
+kine | Latest price of Kine Protocol
+kim | Latest price of King Money
+kgs | Latest price of KINGSCOIN
+kex | Latest price of KIRA Network
+kiro | Latest price of Kirobo
+kif | Latest price of KittenFinance
+klay | Latest price of Klaytn
+pnk | Latest price of Kleros
+klv | Latest price of Klever
+kts | Latest price of Klimatas
+knt | Latest price of Knekted
+kobo | Latest price of Kobocoin
+kok | Latest price of KOK Coin
+komet | Latest price of Komet
+kmd | Latest price of Komodo
+kbot | Latest price of Korbot
+koto | Latest price of Koto
+kreds | Latest price of Kreds
+krl | Latest price of KRYLL
+kgc | Latest price of Krypton Galaxy Coin
+kubo | Latest price of KuboCoin
+kcs | Latest price of KuCoin Token
+kue | Latest price of Kuende
+klp | Latest price of Kulupu
+kurt | Latest price of Kurrent
+ksm | Latest price of Kusama
+kuv | Latest price of Kuverit
+kvnt | Latest price of KVANT
+kvi | Latest price of KVI
+kwh | Latest price of KwhCoin
+knc | Latest price of Kyber Network
+kyl | Latest price of Kylin Network
+kzc | Latest price of Kzcash
+lamb | Latest price of Lambda
+tau | Latest price of Lamden
+lana | Latest price of LanaCoin
+lrg | Latest price of Largo Coin
+lmch | Latest price of Latamcash
+lxc | Latest price of Latex Chain
+latx | Latest price of LatiumX
+la | Latest price of LATOKEN
+ltx | Latest price of Lattice Token
+lpool | Latest price of Launchpool
+lbk | Latest price of LBK
+lbc | Latest price of LBRY Credits
+lcx | Latest price of LCX
+leaf | Latest price of Leafcoin
+more | Latest price of Legends Room
+lgo | Latest price of LGO Token
+lemo | Latest price of LemoChain
+ldfi | Latest price of Lendefi Token
+lhb | Latest price of Lendhub
+lnd | Latest price of Lendingblock
+lst | Latest price of Lendroid Support Token
+lc4 | Latest price of LEOcoin
+l3p | Latest price of Lepricon
+lir | Latest price of LetItRide
+lvx | Latest price of LVX
+lev | Latest price of Leverj
+l2 | Latest price of Leverj Gluon
+levl | Latest price of Levolution
+lgcy | Latest price of LGCY Network
+lht | Latest price of LHT
+libfx | Latest price of Libfx
+lc | Latest price of Libra
+lba | Latest price of LibraToken
+ldo | Latest price of Lido DAO
+lien | Latest price of Lien
+life | Latest price of LIFE
+lbtc | Latest price of Lightning Bitcoin
+light | Latest price of Lightning Protocol
+pht | Latest price of Lightstreams Photon
+like | Latest price of LikeCoin
+lina | Latest price of LINA
+lfc | Latest price of Linfinity
+linka | Latest price of LINKA
+lkn | Latest price of LinkCoin Token
+let | Latest price of Linkeye
+lnk | Latest price of Link Platform
+ltk | Latest price of LinkToken
+lips | Latest price of LIPCHAIN
+lid | Latest price of Liquidity Dividends Protocol
+lqd | Latest price of Liquidity Network
+lsk | Latest price of Lisk
+ltb | Latest price of Litbinex Coin
+cash | Latest price of Litecash
+ltc | Latest price of Litecoin
+lcc | Latest price of Litecoin Cash
+lcp | Latest price of Litecoin Plus
+ltcu | Latest price of LiteCoin Ultra
+ltz | Latest price of LitecoinZ
+ldoge | Latest price of LiteDoge
+ltg | Latest price of LiteGold
+lit | Latest price of Litentry
+lxt | Latest price of LITEX
+lpt | Latest price of Livepeer
+lkr | Latest price of LKR Coin
+lm | Latest price of LM Token
+lburst | Latest price of LoanBurst
+lobs | Latest price of Lobstex
+loc | Latest price of LockTrip
+lock | Latest price of LOCK Token
+oxen | Latest price of Oxen
+loom | Latest price of Loom Network
+loon | Latest price of Loon Network
+lrc | Latest price of Loopring
+lotto | Latest price of Lotto
+lpk | Latest price of Kripton
+lto | Latest price of LTO Network
+lucky | Latest price of LUCKY
+lucy | Latest price of LUCY
+lot | Latest price of Lukki Operating Token
+lyxe | Latest price of LUKSO Token
+lmy | Latest price of Lunch Money
+lunes | Latest price of Lunes
+lun | Latest price of Lunyr
+lbxc | Latest price of LUX BIO EXCHANGE COIN
+lux | Latest price of LUXCoin
+lyfe | Latest price of Lyfe
+lkk | Latest price of Lykke
+lym | Latest price of Lympo
+lynx | Latest price of Lynx
+lytx | Latest price of Lytix
+mac | Latest price of Machinecoin
+mad | Latest price of MADNetwork
+art | Latest price of Maecenas
+mag | Latest price of Maggie
+xmg | Latest price of Magi
+mcc | Latest price of Magic Cube Coin
+maha | Latest price of MahaDAO
+maid | Latest price of MaidSafeCoin
+mnc | Latest price of MainCoin
+mft | Latest price of Hifi Finance
+mkr | Latest price of Maker
+mtc | Latest price of ManateeCoin
+mdx | Latest price of Mandala Exchange Token
+mandi | Latest price of Mandi Token
+mgp | Latest price of MangoChain
+om | Latest price of MANTRA DAO
+many | Latest price of MANY
+mapc | Latest price of MapCoin
+maps | Latest price of MAPS
+mbc | Latest price of Marblecoin
+map | Latest price of MAP Protocol
+mfi | Latest price of Marginswap
+mgx | Latest price of MargiX
+peak | Latest price of PEAKDEFI
+mar | Latest price of MARKYT
+pond | Latest price of Marlin
+mars | Latest price of Mars Network
+mlgc | Latest price of Marshal Lion Group Coin
+mxt | Latest price of MarteXcoin
+marx | Latest price of MarxCoin
+msr | Latest price of Masari
+mask | Latest price of Mask Network
+masq | Latest price of MASQ
+mass | Latest price of MASS
+mvl | Latest price of MVL
+musd | Latest price of MASTER USD
+gup | Latest price of Guppy
+math | Latest price of MATH
+matic | Latest price of Polygon
+man | Latest price of Matrix AI Network
+mtx | Latest price of MATRYX
+mvr | Latest price of Mavro
+max | Latest price of Maxcoin
+mxw | Latest price of Maxonrow
+mpg | Latest price of Max Property Group
+mzc | Latest price of Maza
+mbit | Latest price of MBitBooks
+mcb | Latest price of MCDEX
+mci | Latest price of MCI Coin
+mdt | Latest price of Measurable Data Token
+mch | Latest price of Meconcash
+mec | Latest price of Mecro Coin
+med | Latest price of Medibloc
+mtn | Latest price of Medicalchain
+medic | Latest price of Medic Coin
+medi | Latest price of MediConnect
+mkey | Latest price of MEDIKEY
+mds | Latest price of MediShares
+mdm | Latest price of MEDIUM
+meetone | Latest price of MEET.ONE
+mega | Latest price of MegaCryptoPolis
+mln | Latest price of Enzyme
+mbn | Latest price of Membrana
+mpay | Latest price of Menapay
+mvp | Latest price of Merculet
+mee | Latest price of Mercurity Finance
+mer | Latest price of Mercury
+meri | Latest price of Merebel
+mesh | Latest price of MeshBox
+seed | Latest price of MetaGame
+mhc | Latest price of #MetaHash
+mtl | Latest price of Metal
+metm | Latest price of MetaMorph
+etp | Latest price of Metaverse ETP
+mtrg | Latest price of Meter Governance
+mtr | Latest price of Meter Stable
+met | Latest price of Metronome
+mex | Latest price of MEX
+mexc | Latest price of MEXC Token
+mfc | Latest price of MFCoin
+mib | Latest price of MIB Coin
+micro | Latest price of Micromines
+amm | Latest price of MicroMoney
+mas | Latest price of Midas Protocol
+mig | Latest price of Migranet
+mlk | Latest price of MiL.k
+mm | Latest price of Millimeter
+mwc | Latest price of MimbleWimbleCoin
+mnd | Latest price of MindCoin
+min | Latest price of MINDOL
+mnr | Latest price of Mineral
+mne | Latest price of Minereum
+mg | Latest price of MinerGate Token
+mnm | Latest price of Mineum
+mini | Latest price of Mini
+mbtc | Latest price of MiniBitcoin
+mint | Latest price of Mintcoin
+mir | Latest price of MIR COIN
+mic | Latest price of Mithril Cash
+mith | Latest price of Mithril
+mix | Latest price of MixMarvel
+mmo | Latest price of MMOCoin
+moac | Latest price of MOAC
+mgo | Latest price of MobileGo
+molk | Latest price of MobilinkToken
+mobi | Latest price of Mobius
+moco | Latest price of MoCo
+mod | Latest price of Modefi
+mda | Latest price of Moeda Loyalty Points
+mexp | Latest price of MOJI Experience Points
+mojo | Latest price of Mojocoin
+mof | Latest price of Molecular Future
+mol | Latest price of Molten
+moc | Latest price of MomoCash
+mona | Latest price of MonaCoin
+xmr | Latest price of Monero
+xmc | Latest price of Monero-Classic
+xmv | Latest price of MoneroV
+moneta | Latest price of Moneta
+mue | Latest price of MonetaryUnit
+mth | Latest price of Monetha
+mswap | Latest price of MoneySwap
+imt | Latest price of MoneyToken
+monk | Latest price of Monkey Project
+msc | Latest price of Monster Slayer Cash
+moonday | Latest price of Moonday Finance
+mrk | Latest price of MoonRabbit
+mzg | Latest price of Moozicore
+mitx | Latest price of Morpheus Labs
+mrph | Latest price of Morpheus Network
+msp | Latest price of Mothership
+moto | Latest price of Motocoin
+mbl | Latest price of MovieBloc
+mp3 | Latest price of MP3
+mrv | Latest price of MRV
+msn | Latest price of MSN
+mttcoin | Latest price of MTTCoin
+dank | Latest price of Mu Dank
+mxx | Latest price of Multiplier
+mtv | Latest price of MultiVAC
+mtcn | Latest price of Multicoin
+muse | Latest price of Muse
+mst | Latest price of MustangCoin
+mute | Latest price of Mute
+mzk | Latest price of Muzika Network
+mxc | Latest price of MXC
+mx | Latest price of MX Token
+myb | Latest price of MyBit Token
+myo | Latest price of Mycro
+mcp | Latest price of My Crypto Play
+alice | Latest price of My Neighbor Alice
+xmy | Latest price of Myriad
+myst | Latest price of Mysterium
+mt | Latest price of MyToken
+ngc | Latest price of NAGA
+nii | Latest price of Nahmii
+nct | Latest price of Name Changing Token
+nmc | Latest price of Namecoin
+nami | Latest price of Nami Corporation Token
+nanj | Latest price of NANJCOIN
+nano | Latest price of Nano
+nan | Latest price of NanTrade
+npx | Latest price of Napoleon X
+nrve | Latest price of Narrative
+nsd | Latest price of Nasdacoin
+nut | Latest price of Native Utility Token
+nat | Latest price of Natmin
+navi | Latest price of Natus Vincere Fan Token
+nav | Latest price of NavCoin
+nc | Latest price of Nayuta Coin
+ndn | Latest price of NDN Link
+near | Latest price of Near
+nebl | Latest price of Neblio
+nas | Latest price of Nebulas
+nec | Latest price of Nectar
+neet | Latest price of Neetcoin
+nva | Latest price of Neeva Defi
+xem | Latest price of NEM
+neo | Latest price of NEO
+nex | Latest price of Nash
+nrv | Latest price of Nerve Finance
+nvt | Latest price of NerveNetwork
+ckb | Latest price of Nervos Network
+nest | Latest price of Nest Protocol
+net | Latest price of Netcoin
+netko | Latest price of Netko
+ntk | Latest price of Netkoin
+ntm | Latest price of Netm
+neu | Latest price of Neumark
+nrp | Latest price of Neural Protocol
+ncc | Latest price of NeuroChain
+nmp | Latest price of Neuromorphic.io
+usdn | Latest price of Neutrino USD
+nsbt | Latest price of Neutrino System Base Token
+ntrn | Latest price of Neutron
+neva | Latest price of NevaCoin
+nbs | Latest price of New BitShares
+nkc | Latest price of Nework
+nwc | Latest price of Newscrypto Coin
+newos | Latest price of NewsToken
+ncp | Latest price of Newton Coin Project
+new | Latest price of Newton Project
+nyc | Latest price of NewYorkCoin
+nye | Latest price of NewYork Exchange
+nexo | Latest price of NEXO
+nax | Latest price of NextDAO
+next | Latest price of NEXT
+nty | Latest price of Nexty
+nxs | Latest price of Nexus
+nexxo | Latest price of Nexxo
+nfti | Latest price of NFT Index
+loot | Latest price of NFTLootBox
+nft | Latest price of NFT Protocol
+rehab | Latest price of NFT Rehab
+nftx | Latest price of NFTX
+nim | Latest price of Nimiq
+nbr | Latest price of Niobio Cash
+nbc | Latest price of Niobium Coin
+nos | Latest price of Nitrous Finance
+nix | Latest price of NIX
+nkn | Latest price of NKN
+nnb | Latest price of NNB Token
+nobl | Latest price of NobleCoin
+brain | Latest price of Nobrainer Finance
+ndr | Latest price of Node Runners
+noia | Latest price of Syntropy
+noiz | Latest price of Noiz Chain
+noku | Latest price of Noku
+nlc2 | Latest price of NoLimitCoin
+nfy | Latest price of Non-Fungible Yearn
+nord | Latest price of Nord Finance
+ntbc | Latest price of Note Blockchain
+nvc | Latest price of Novacoin
+nss | Latest price of NSS Coin
+nsure | Latest price of Nsure Network
+n0031 | Latest price of nYFI
+usnbt | Latest price of NuBits
+ncash | Latest price of Nucleus Vision
+nu | Latest price of NuCypher
+nlx | Latest price of NulleX
+nuls | Latest price of Nuls
+nmr | Latest price of Numeraire
+susd | Latest price of sUSD
+nsr | Latest price of NuShares
+nxm | Latest price of Nexus Mutual
+nxt | Latest price of NXT
+nyante | Latest price of Nyantereum International
+nyex | Latest price of Nyerium
+nyzo | Latest price of Nyzo
+osc | Latest price of Oasis City
+rose | Latest price of Oasis Network
+obr | Latest price of OBR
+obsr | Latest price of OBSERVER Coin
+oc | Latest price of OceanChain
+ocean | Latest price of Ocean Protocol
+octo | Latest price of OctoFi
+oct | Latest price of Octree
+odc | Latest price of ODDO coin
+ode | Latest price of ODEM
+owc | Latest price of Oduwa Coin
+ocn | Latest price of Odyssey
+xft | Latest price of Offshift
+on | Latest price of OFIN TOKEN
+og | Latest price of OG Fan Token
+oks | Latest price of Oikos
+oin | Latest price of OIN Finance
+okb | Latest price of OKB
+ok | Latest price of OKCash
+okt | Latest price of OKExChain
+ole | Latest price of Olestars
+oly | Latest price of Olyseum
+omc | Latest price of OMC Group
+omega | Latest price of OMEGA
+omg | Latest price of OMG Network
+omni | Latest price of Omni
+ecom | Latest price of Omnitude
+onit | Latest price of ONBUFF
+olt | Latest price of OneLedger
+rnt | Latest price of OneRoot Network
+ons | Latest price of One Share
+ong | Latest price of Ontology Gas
+onx | Latest price of Onix
+onl | Latest price of On.Live
+onot | Latest price of ONO
+ont | Latest price of Ontology
+opct | Latest price of Opacity
+opal | Latest price of Opal
+opc | Latest price of OP Coin
+oax | Latest price of OAX
+open | Latest price of OPEN Governance Token
+opium | Latest price of Opium
+xor | Latest price of Oracolxor
+orai | Latest price of Oraichain Token
+orb | Latest price of Orbitcoin
+orbs | Latest price of Orbs
+oxt | Latest price of Orchid Protocol
+htdf | Latest price of Orient Walt
+ogn | Latest price of Origin Protocol
+ors | Latest price of Origin Sport
+trac | Latest price of OriginTrail
+ogo | Latest price of Origo
+orn | Latest price of Orion Protocol
+orm | Latest price of ORIUM
+orly | Latest price of Orlycoin
+orme | Latest price of Ormeus Coin
+eco | Latest price of Ormeus Ecosystem
+oro | Latest price of ORO
+os76 | Latest price of OsmiumCoin
+oto | Latest price of OTOCASH
+ovc | Latest price of OVCODE
+ovr | Latest price of Ovr
+owl | Latest price of OWL
+own | Latest price of OWNDATA
+0xbtc | Latest price of 0xBitcoin
+pac | Latest price of PAC Global
+paid | Latest price of PAID Network
+paint | Latest price of MurAll
+pjm | Latest price of Pajama.Finance
+pak | Latest price of Pakcoin
+ptn | Latest price of PalletOneToken
+pamp | Latest price of Pamp Network
+cake | Latest price of PancakeSwap
+pnd | Latest price of Pandacoin
+xpat | Latest price of Pangea Arbitration Token (Bitnation)
+xpn | Latest price of PANTHEON X
+pan | Latest price of Pantos
+pazzi | Latest price of Paparazzi
+par | Latest price of Parachute
+pnc | Latest price of Parallel network
+pareto | Latest price of PARETO Rewards
+psg | Latest price of Paris Saint-Germain Fan Token
+pkb | Latest price of ParkByte
+prq | Latest price of PARSIQ
+part | Latest price of Particl
+prc | Latest price of Partner
+pasc | Latest price of Pascal
+psi | Latest price of Passive Income
+ptoy | Latest price of Patientory
+paxex | Latest price of PAXEX
+paxg | Latest price of PAX Gold
+pax | Latest price of Paxos Standard
+payt | Latest price of PayAccept
+pyn | Latest price of Paycent
+pci | Latest price of PayProtocol Paycoin
+pfr | Latest price of Payfair
+ppp | Latest price of PayPie
+epan | Latest price of Paypolitan Token
+pti | Latest price of Paytomat
+pbtc35a | Latest price of pBTC35A
+pi | Latest price of PCHAIN
+nux | Latest price of Peanut
+pearl | Latest price of Pearl Finance
+pcl | Latest price of Peculium
+pcn | Latest price of Peepcoin
+ppc | Latest price of Peercoin
+perx | Latest price of PeerEx Network
+guess | Latest price of PeerGuess
+ppy | Latest price of Peerplays
+pgc | Latest price of Pegascoin
+peg | Latest price of PegNet
+peng | Latest price of PENG
+fish | Latest price of Penguin Party Fish
+pnt | Latest price of Penta Network Token
+pny | Latest price of Peony Coin
+peps | Latest price of PEPS Coin
+ppblz | Latest price of Pepemon Pepeballs
+perp | Latest price of Perpetual Protocol
+pmgt | Latest price of Perth Mint Gold Token
+ptc | Latest price of Pesetacoin
+psb | Latest price of Pesobit
+pta | Latest price of Petrachor
+xpd | Latest price of PetroDollar
+pha | Latest price of Phala Network
+xph | Latest price of PHANTOM
+pnx | Latest price of Phantomx
+wage | Latest price of Digiwage
+pxc | Latest price of Phoenixcoin
+phnx | Latest price of PhoenixDAO
+phr | Latest price of Phore
+pho | Latest price of Phoswap
+pica | Latest price of PICA
+pickle | Latest price of Pickle Finance
+pxl | Latest price of Piction Network
+ypie | Latest price of PieDAO Yearn Ecosystem Pie
+pgn | Latest price of Pigeoncoin
+plr | Latest price of Pillar
+pink | Latest price of Pinkcoin
+pipl | Latest price of PiplCoin
+pirate | Latest price of PirateCash
+arrr | Latest price of Pirate Chain
+pirl | Latest price of Pirl
+pitch | Latest price of Pitch
+pvt | Latest price of Pivot Token
+pivx | Latest price of PIVX
+pizza | Latest price of PizzaSwap
+pla | Latest price of Plair
+plc | Latest price of PlatinCoin
+pltc | Latest price of PlatonCoin
+luc | Latest price of Level-Up Coin
+pal | Latest price of PlayAndLike
+pcnt | Latest price of Playcent
+plx | Latest price of PlayX
+plf | Latest price of PlayFuel
+pxg | Latest price of PlayGame
+pkt | Latest price of PlayKey
+plg | Latest price of Pledgecamp
+plot | Latest price of PlotX
+plura | Latest price of PluraCoin
+plus1 | Latest price of PlusOneCoin
+plu | Latest price of Pluton
+plt | Latest price of Add.xyz (OLD)
+poa | Latest price of POA Network
+poc | Latest price of POC Blockchain
+pocc | Latest price of POC Chain
+poe | Latest price of Po.et
+pfid | Latest price of Pofid Dao
+pbase | Latest price of Polkabase
+pbr | Latest price of PolkaBridge
+polc | Latest price of Polkacity
+dot | Latest price of Polkadot
+pkf | Latest price of PolkaFoundry
+pis | Latest price of Polkainsure Finance
+polk | Latest price of Polkamarkets
+pols | Latest price of Polkastarter
+plbt | Latest price of Polybius
+pgt | Latest price of Polyient Games Governance Token
+poly | Latest price of Polymath Network
+pux | Latest price of PolypuX
+psk | Latest price of Pool of Stake
+poolz | Latest price of Poolz Finance
+pch | Latest price of Popchain
+pop | Latest price of POP Network Token
+ppt | Latest price of Populous
+portal | Latest price of Portal
+prt | Latest price of Portion
+pdf | Latest price of Port of DeFi Network
+pos | Latest price of POS Coin
+pwr | Latest price of PWR Coin
+powr | Latest price of Power Ledger
+ptf | Latest price of PowerTrade Fuel
+pcm | Latest price of Precium
+pqt | Latest price of Prediqt
+premia | Latest price of Premia
+pre | Latest price of Presearch
+prs | Latest price of PressOne
+prvs | Latest price of Previse
+pria | Latest price of PRIA
+lgbtq | Latest price of Pride
+pst | Latest price of Primas
+xpm | Latest price of Primecoin
+prime | Latest price of PrimeDAO
+pxi | Latest price of Prime-XI
+print | Latest price of Printer.Finance
+prix | Latest price of Privatix
+pzm | Latest price of Prizm
+prob | Latest price of Probit Token
+put | Latest price of Profile Utility Token
+pai | Latest price of Project Pai
+omx | Latest price of Project SHIVOM
+wiken | Latest price of Project WITH
+prom | Latest price of Prometeus
+pc | Latest price of PromotionChain
+pol | Latest price of Proof Of Liquidity
+props | Latest price of Props Token
+pro | Latest price of Propy
+pgl | Latest price of Prospectors Gold
+pros | Latest price of Prosper
+prot | Latest price of PROT
+xpr | Latest price of Proton
+ptt | Latest price of Proton Token
+proud | Latest price of Proud Money
+pec | Latest price of Poverty Eradication Coin
+voco | Latest price of Provoco
+xes | Latest price of Proxeus
+xpx | Latest price of ProximaX
+prx | Latest price of ProxyNode
+psy | Latest price of Psychic
+pteria | Latest price of Pteria
+pbl | Latest price of Pebbles
+pma | Latest price of PumaPay
+npxs | Latest price of Pundi X
+npxsxem | Latest price of Pundi X NEM
+pure | Latest price of Puriever
+pylon | Latest price of Pylon Finance
+pylnt | Latest price of Pylon Network
+pyrk | Latest price of Pyrk
+qash | Latest price of QASH
+qbt | Latest price of Qbao
+qc | Latest price of Qcash
+qch | Latest price of QChi
+qi | Latest price of QiSwap
+pmeer | Latest price of Qitmeer
+qlc | Latest price of QLC Chain
+qqq | Latest price of Poseidon Network
+xqr | Latest price of Qredit
+qtum | Latest price of Qtum
+equad | Latest price of Quadrant Protocol
+qtf | Latest price of Quantfury
+qnt | Latest price of Quant
+qsp | Latest price of Quantstamp
+qrl | Latest price of Quantum Resistant Ledger
+qrk | Latest price of Quark
+qkc | Latest price of QuarkChain
+qac | Latest price of Quasarcoin
+qbit | Latest price of Qubitica
+qbc | Latest price of Quebecoin
+qbz | Latest price of QUEENBEE
+quick | Latest price of Quickswap
+qcx | Latest price of QuickX Protocol
+qrx | Latest price of QuiverX
+qtcon | Latest price of Quiztok
+qun | Latest price of QunQun
+xqn | Latest price of Quotient
+qwc | Latest price of Qwertycoin
+r34p | Latest price of R34P
+rac | Latest price of RAC
+rad | Latest price of Radicle
+rai | Latest price of Rai Reflex Index
+rdn | Latest price of Raiden Network Token
+rak | Latest price of Rake Finance
+rkn | Latest price of RAKON
+rly | Latest price of Rally
+ramp | Latest price of RAMP
+rpd | Latest price of Rapids
+rpzx | Latest price of Rapidz
+rari | Latest price of Rarible
+rgt | Latest price of Rari Governance Token
+rte | Latest price of Rate3
+rvn | Latest price of Ravencoin
+rvc | Latest price of Ravencoin Classic
+raven | Latest price of Raven Protocol
+ray | Latest price of Raydium
+rev | Latest price of RChain
+real | Latest price of Real Estate Asset Ledger
+rio | Latest price of Realio Network
+ret | Latest price of RealTract
+reap | Latest price of ReapChain
+rbtc | Latest price of Rebitcoin
+rrt | Latest price of Recovery Right Token
+rdd | Latest price of Reddcoin
+rfox | Latest price of RedFOX Labs
+redi | Latest price of REDi
+phb | Latest price of Phoenix Global
+ree | Latest price of ReeCoin
+reef | Latest price of Reef Finance
+rfr | Latest price of Refereum
+rfi | Latest price of reflect.finance
+rfctr | Latest price of Reflector.Finance
+rlx | Latest price of RELAX Protocol
+rel | Latest price of RELEASE
+rem | Latest price of Remme
+renbtc | Latest price of renBTC
+rndr | Latest price of Render Token
+rendoge | Latest price of renDOGE
+rrb | Latest price of Renrenbit
+berry | Latest price of Rentberry
+repo | Latest price of Repo Coin
+ren | Latest price of REN
+req | Latest price of Request
+rsv | Latest price of Reserve
+rsr | Latest price of Reserve Rights Token
+res | Latest price of Resfinex Token
+mwat | Latest price of Restart Energy
+revv | Latest price of REVV
+rex | Latest price of Imbrex
+rice | Latest price of RiceSwap
+ride | Latest price of Ride My Car
+ric | Latest price of Riecoin
+rif | Latest price of RSK Infrastructure Framework
+rigel | Latest price of Rigel Finance
+ringx | Latest price of RING X PLATFORM
+rfuel | Latest price of RioDeFi
+rcn | Latest price of Ripio Credit Network
+xrp | Latest price of XRP
+rise | Latest price of Rise
+ri | Latest price of RI Token
+rvt | Latest price of Rivetz
+rvx | Latest price of Rivex
+rmpl | Latest price of RMPL
+road | Latest price of ROAD
+robet | Latest price of RoBet Coin
+rc20 | Latest price of RoboCalls
+xrt | Latest price of Robonomics Network
+rws | Latest price of Robonomics Web Services
+rox | Latest price of Robotina
+rkt | Latest price of Rocket Fund
+rpl | Latest price of Rocket Pool
+roobee | Latest price of Roobee
+rook | Latest price of KeeperDAO
+root | Latest price of Rootkit
+rth | Latest price of Rotharium
+rot | Latest price of Rotten
+route | Latest price of Router Protocol
+roe | Latest price of Rover Coin
+rwn | Latest price of Rowan Coin
+roc | Latest price of Roxe
+roya | Latest price of Royale
+rrc | Latest price of RRSpace
+rby | Latest price of Rubycoin
+ruff | Latest price of Ruff
+rpt | Latest price of Rug Proof
+rupx | Latest price of Rupaya
+rup | Latest price of Rupee
+idrt | Latest price of Rupiah Token
+ruc | Latest price of Rush
+rc | Latest price of RussellCoin
+rmc | Latest price of Russian Miner Coin
+ryo | Latest price of Ryo Currency
+s4f | Latest price of S4FE
+scat | Latest price of Sad Cat Token
+sfr | Latest price of Safari
+safe2 | Latest price of SAFE2
+scap | Latest price of SafeCapital
+safe | Latest price of Safe
+sha | Latest price of Safe Haven
+sins | Latest price of SafeInsure
+sfp | Latest price of SafePal
+sfi | Latest price of saffron.finance
+sgr | Latest price of Sogur
+saga | Latest price of DarkSaga
+sai | Latest price of Sai
+sake | Latest price of SakeToken
+skb | Latest price of Sakura Bloom
+slm | Latest price of Salmon
+salt | Latest price of SALT
+sls | Latest price of SaluS
+sam | Latest price of Samurai
+san | Latest price of Santiment Network Token
+spn | Latest price of Sapien
+sashimi | Latest price of Sashimi
+stop | Latest price of SatoPay
+spy | Latest price of Satopay Yield Token
+satt | Latest price of SaTT
+sav3 | Latest price of SAV3
+svd | Latest price of Savedroid
+sts | Latest price of SBank
+sbtc | Latest price of sBTC
+swc | Latest price of Scanetchain
+scha | Latest price of Schain Wallet
+scribe | Latest price of Scribe
+scriv | Latest price of SCRIV
+xd | Latest price of Data Transaction Token
+ddd | Latest price of Scry.info
+skt | Latest price of SealBlock Token
+seal | Latest price of Sealchain
+scrt | Latest price of Secret
+wscrt | Latest price of Secret (ERC20)
+sgc | Latest price of Secured Gold Coin
+seeds | Latest price of Seeds
+seele | Latest price of Seele
+seen | Latest price of SEEN
+seer | Latest price of Seer
+stor | Latest price of Self Storage Coin
+sem | Latest price of Semux
+sense | Latest price of Sense
+senso | Latest price of SENSO
+senc | Latest price of Sentinel Chain
+sntvt | Latest price of Sentivate
+seos | Latest price of sEOS
+seq | Latest price of Sequence
+srnt | Latest price of Serenity
+srm | Latest price of Serum
+kicks | Latest price of SESSIA
+sfg | Latest price of S.Finance
+kobe | Latest price of Shabu Shabu
+dows | Latest price of Shadows
+xat | Latest price of ShareAt
+sgt | Latest price of SharedStake Governance Token
+shr | Latest price of ShareToken
+xsh | Latest price of SHIELD
+shift | Latest price of Shift
+sh | Latest price of Shilling
+she | Latest price of ShineChain
+ship | Latest price of ShipChain
+spi | Latest price of Shopping.io
+shorty | Latest price of Shorty
+hand | Latest price of ShowHand
+scds | Latest price of Shrine Cloud Storage Network
+shroom | Latest price of Shroom.Finance
+sc | Latest price of Siacoin
+scp | Latest price of ScPrime
+sib | Latest price of SIBCoin
+sic | Latest price of SICash
+sierra | Latest price of Sierracoin
+erowan | Latest price of Sifchain
+silk | Latest price of SilkChain
+scn | Latest price of Silver Coin
+sfc | Latest price of Silver Fabric Coin
+slv | Latest price of Silverway
+sst | Latest price of SIMBA Storage Token
+sss | Latest price of Simple Software Solutions
+ost | Latest price of OST
+sine | Latest price of Sinelock
+sngls | Latest price of SingularDTV
+agi | Latest price of SingularityNET
+si | Latest price of Siren
+srn | Latest price of Sirin Labs Token
+611 | Latest price of SixEleven
+six | Latest price of SIX Network
+skl | Latest price of SKALE
+skc | Latest price of SKINCHAIN
+skin | Latest price of SkinCoin
+skrp | Latest price of Skraps
+skm | Latest price of Skrumble Network
+skull | Latest price of Skull
+sky | Latest price of Skycoin
+slink | Latest price of sLINK
+slnv2 | Latest price of SLNV2
+slt | Latest price of SLT
+slp | Latest price of Small Love Potion
+smc | Latest price of Smartcoin
+smartcredit | Latest price of SmartCredit Token
+skey | Latest price of SmartKey
+smt | Latest price of SmartMesh
+ssp | Latest price of Smartshare
+sat | Latest price of SmartX
+smly | Latest price of Smileycoin
+smpl | Latest price of SMPL Foundation
+snet | Latest price of Snetwork
+snd | Latest price of SnodeCoin
+snov | Latest price of Snovian.Space
+tent | Latest price of TENT
+skym | Latest price of SkyMap
+soar | Latest price of Soar
+sg | Latest price of SocialGood
+scl | Latest price of Sociall
+send | Latest price of Social Send
+sol | Latest price of Solana
+slr | Latest price of Solarcoin
+sdao | Latest price of Solar DAO
+xlr | Latest price of Solaris
+solo | Latest price of Sologenic
+solve | Latest price of SOLVE
+sbe | Latest price of Sombe
+ssx | Latest price of SOMESING
+cube | Latest price of Somnium Space CUBEs
+song | Latest price of SongCoin
+snm | Latest price of SONM
+sop | Latest price of SoPay
+sphtx | Latest price of SophiaTX
+sota | Latest price of SOTA Finance
+sove | Latest price of Soverain
+spx | Latest price of Sp8de
+spc | Latest price of SpaceChain
+sprkl | Latest price of Sparkle Loyalty
+srk | Latest price of SparkPoint
+spk | Latest price of SparksPay
+sprk | Latest price of Sparkster
+300 | Latest price of Spartan
+alias | Latest price of Alias
+sxdt | Latest price of Spectre.ai Dividend Token
+xspc | Latest price of SpectreSecurityCoin
+sxut | Latest price of Spectre.ai Utility Token
+spt | Latest price of SPECTRUM
+spnd | Latest price of Spendcoin
+spa | Latest price of Sperax
+sphr | Latest price of Sphere
+spice | Latest price of Spice Token
+spok | Latest price of Spock
+spore | Latest price of Spore Engineering
+snl | Latest price of Sport and Leisure
+sx | Latest price of SportX
+sprtz | Latest price of SpritzCoin
+sprts | Latest price of Sprouts
+nuts | Latest price of Squirrel Finance
+usds | Latest price of Stably USD
+dsla | Latest price of DSLA Protocol
+fis | Latest price of Stafi
+steth | Latest price of Lido Staked Ether
+xsn | Latest price of Stakenet
+labx | Latest price of Stakinglab
+sas | Latest price of Stand Share
+xstar | Latest price of StarDEX
+eurs | Latest price of STASIS EURO
+snt | Latest price of Status
+xst | Latest price of Stealth
+steem | Latest price of Steem
+sbd | Latest price of Steem Dollars
+steep | Latest price of SteepCoin
+xlm | Latest price of Stellar
+stn | Latest price of Sting
+stk | Latest price of STK
+stbu | Latest price of Stobox Token
+stonk | Latest price of STONK
+sto | Latest price of Storeum
+stq | Latest price of Storiqa
+storj | Latest price of Storj
+stmx | Latest price of StormX
+stpt | Latest price of STP Network
+nah | Latest price of Strayacoin
+data | Latest price of Streamr DATAcoin
+cred | Latest price of Street Cred
+shnd | Latest price of StrongHands
+shx | Latest price of Stronghold Token
+sub | Latest price of Substratum
+xsr | Latest price of Sucrecoin
+sugar | Latest price of Sugarchain
+suku | Latest price of SUKU
+sumo | Latest price of Sumokoin
+sun | Latest price of SUN
+snc | Latest price of SunContract
+super | Latest price of SuperCoin
+ect | Latest price of SuperEdge
+sup | Latest price of SuperTx Governance Token
+sero | Latest price of SERO
+sin | Latest price of SINOVATE
+rmt | Latest price of SureRemit
+sur | Latest price of Suretly
+surf | Latest price of SurfExUtilityToken
+sushi | Latest price of Sushi
+suter | Latest price of Suterusu
+bucks | Latest price of SwagBucks
+swag | Latest price of SWAG Finance
+xwp | Latest price of Swap
+swfl | Latest price of Swapfolio
+swm | Latest price of Swarm Fund
+swt | Latest price of Swarm City
+swrv | Latest price of Swerve
+swftc | Latest price of SWFT Blockchain
+swing | Latest price of Swing
+swingby | Latest price of Swingby
+sxp | Latest price of Swipe
+swg | Latest price of Swirge
+chsb | Latest price of SwissBorg
+esh | Latest price of Switch
+swth | Latest price of Switcheo
+swyftt | Latest price of SWYFT
+sybc | Latest price of SYBC Coin
+sylo | Latest price of Sylo
+xym | Latest price of Symbol
+sym | Latest price of SymVerse
+mfg | Latest price of Smart MFG
+snb | Latest price of SynchroBitcoin
+synx | Latest price of Syndicate
+snrg | Latest price of Synergy
+syn | Latest price of SynLev
+soil | Latest price of Synth sOIL
+sys | Latest price of Syscoin
+tagr | Latest price of TAGRcoin
+tai | Latest price of tBridge Token
+taj | Latest price of TajCoin
+tan | Latest price of Taklimakan Network
+tme | Latest price of TAMA EGG NiftyGotchi
+tmt | Latest price of Tamy Token
+tap | Latest price of Tapmydata
+ttt | Latest price of Tapcoin
+tara | Latest price of Taraxa
+tbcc | Latest price of TBCC Wallet
+tbtc | Latest price of tBTC
+tch | Latest price of Tchain
+tco | Latest price of Tcoin.fun
+team | Latest price of Team Finance
+tip | Latest price of Technology Innovation Project
+tone | Latest price of TE-FOOD
+tek | Latest price of TEKcoin
+tel | Latest price of Telcoin
+trb | Latest price of Tellor
+tlos | Latest price of Telos
+telos | Latest price of Teloscoin
+temco | Latest price of TEMCO
+tem | Latest price of Temtum
+tend | Latest price of Tendies
+ten | Latest price of Tenet
+pay | Latest price of TenX
+tep | Latest price of Tepleton
+tera | Latest price of TERA
+tcnx | Latest price of Tercet Network
+tern | Latest price of Ternio
+trc | Latest price of Terracoin
+krt | Latest price of TerraKRW
+luna | Latest price of Terra
+ust | Latest price of TerraUSD
+tvk | Latest price of Terra Virtua Kolect
+tsr | Latest price of Tesra
+usdt | Latest price of Tether
+xaut | Latest price of Tether Gold
+zest | Latest price of Zest Token
+four | Latest price of 4thpillar technologies
+abyss | Latest price of Abyss
+api | Latest price of The APIS
+family | Latest price of The Bitcoin Family
+tcc | Latest price of The ChampCoin
+tft | Latest price of The Famous Token
+forestplus | Latest price of The Forbidden Forest
+gcc | Latest price of Global Cryptocurrency
+ths | Latest price of The Hash Speed
+tky | Latest price of THEKEY
+tlb | Latest price of The Luxury Coin
+tmtg | Latest price of The Midas Touch Gold
+may | Latest price of Theresa May Coin
+tfuel | Latest price of Theta Fuel
+theta | Latest price of Theta Network
+ttc | Latest price of TheTimesChainCoin
+tic | Latest price of Thingschain
+tos | Latest price of ThingsOperatingSystem
+rune | Latest price of THORChain
+thr | Latest price of Thorecoin
+thex | Latest price of Thore Exchange Token
+thx | Latest price of Thorenext
+thrt | Latest price of Thrive
+trvc | Latest price of TriveChain
+tt | Latest price of ThunderCore
+tyt | Latest price of Tianya Token
+tdx | Latest price of Tidex Token
+tnt | Latest price of Tierion
+tie | Latest price of Ties.DB
+tig | Latest price of TIG Token
+tnb | Latest price of Time New Bank
+tsc | Latest price of Time Space Chain
+ttn | Latest price of Titan Coin
+titan | Latest price of TitanSwap
+tit | Latest price of Titcoin
+mtxlt | Latest price of Tixl [OLD]
+txl | Latest price of Tixl
+tmc | Latest price of TMC
+tnc | Latest price of TNC Coin
+toa | Latest price of ToaCoin
+ton | Latest price of Tokamak Network
+tkmn | Latest price of Tokemon
+ntb | Latest price of TokenAsset
+tbx | Latest price of Tokenbox
+tkn | Latest price of Monolith
+tct | Latest price of TokenClub
+tds | Latest price of TokenDesk
+lon | Latest price of Tokenlon
+tpay | Latest price of TokenPay
+tkc | Latest price of Token Planets
+top | Latest price of TokenSwap
+tks | Latest price of Tokes
+toko | Latest price of Tokoin
+tok | Latest price of Tokok
+tokc | Latest price of Tokyo Coin
+tol | Latest price of Tolar
+tom | Latest price of TOM Finance
+tomo | Latest price of TomoChain
+tomoe | Latest price of TomoChain ERC-20
+topc | Latest price of TopChain
+tor | Latest price of Torchain
+torn | Latest price of Tornado Cash
+tosc | Latest price of T.OS
+ttm | Latest price of To The Moon
+toc | Latest price of TouchCon
+tret | Latest price of Tourist Review Token
+tower | Latest price of Tower
+tra | Latest price of Trabzonspor Fan Token
+tac | Latest price of Traceability Chain
+tbb | Latest price of Trade Butler Bot
+tiox | Latest price of Trade Token X
+twi | Latest price of Trade.win
+tpc | Latest price of Trading Pool Coin
+slice | Latest price of Tranche Finance
+tns | Latest price of Transcodium
+tx | Latest price of Transfercoin
+xpb | Latest price of Transmute
+trcb | Latest price of TRCB Chain
+trnd | Latest price of Trendering
+tzc | Latest price of TrezarCoin
+tria | Latest price of Triaconta
+try | Latest price of Trias [Old Token]
+trias | Latest price of Trias Token
+trbt | Latest price of Tribute
+tri | Latest price of Trinity Protocol
+trio | Latest price of Tripio
+trtt | Latest price of Trittium
+trix | Latest price of TriumphX
+troll | Latest price of Trollcoin
+trx | Latest price of TRON
+trp | Latest price of Tronipay
+troy | Latest price of Troy
+trk | Latest price of Truckcoin
+true | Latest price of TrueChain
+tdp | Latest price of TrueDeck
+tfb | Latest price of Truefeedback Token
+tru | Latest price of TrueFi
+tfl | Latest price of TrueFlip
+tgame | Latest price of Truegame
+tusd | Latest price of TrueUSD
+trust | Latest price of TrustDAO
+tln | Latest price of Trustlines Network
+swap | Latest price of Trustswap
+trv | Latest price of TrustVerse
+twt | Latest price of Trust Wallet Token
+tmn | Latest price of TranslateMe Network Token
+maro | Latest price of Maro
+tur | Latest price of Turret
+trtl | Latest price of TurtleCoin
+tuda | Latest price of Tutor's Diary
+twee | Latest price of Tweebaa
+tkt | Latest price of Twinkle
+twist | Latest price of TWIST
+ff1 | Latest price of Two Prime FF1 Token
+txt | Latest price of TXT
+type | Latest price of Typerium
+phoon | Latest price of Typhoon Cash
+ubex | Latest price of Ubex
+ubq | Latest price of Ubiq
+ubx | Latest price of UBIX Network
+uca | Latest price of UCA Coin
+ucash | Latest price of U.CASH
+ucn | Latest price of UChain
+u | Latest price of Ucoin
+uct | Latest price of Ubique Chain of Things (UCOT)
+ucx | Latest price of UCX
+upx | Latest price of UDAP
+ufo | Latest price of Uniform Fiscal Object
+ugc | Latest price of ugChain
+ut | Latest price of Ulord
+usc | Latest price of Ultimate Secure Cash
+uos | Latest price of Ultra
+ugas | Latest price of Ultrain
+uat | Latest price of UltrAlpha
+uma | Latest price of UMA
+umc | Latest price of Umbrella Coin
+umb | Latest price of Umbrella Network
+uuu | Latest price of U Network
+ersdl | Latest price of UnFederalReserve
+undb | Latest price of UniDexBot
+ubt | Latest price of Unibright
+uni | Latest price of UNICORN Token
+unc | Latest price of UniCrypt (Old)
+uncx | Latest price of UniCrypt
+unidx | Latest price of UniDex
+undg | Latest price of UniDexGas
+unifi | Latest price of Covenants
+up | Latest price of UniFi Protocol
+unfi | Latest price of Unifi Protocol DAO
+nif | Latest price of Unifty
+ifund | Latest price of Unifund
+unify | Latest price of Unify
+graph | Latest price of UniGraph
+ukg | Latest price of Unikoin Gold
+layer | Latest price of UniLayer
+umx | Latest price of UniMex Network
+ufc | Latest price of Union Fair Coin
+unn | Latest price of UNION Protocol Governance Token
+power | Latest price of UniPower
+foto | Latest price of Unique Photo
+uco | Latest price of Uniris
+unistake | Latest price of Unistake
+usd | Latest price of unified Stable Dollar
+ubtc | Latest price of United Bitcoin
+utt | Latest price of United Traders Token
+col | Latest price of Unit Protocol
+trade | Latest price of Unitrade
+uis | Latest price of Unitus
+utnp | Latest price of Universa
+unit | Latest price of Universal Currency
+uenc | Latest price of UniversalEnergyChain
+upeur | Latest price of Universal Euro
+upt | Latest price of Universal Protocol Token
+upusd | Latest price of Universal US Dollar
+uwl | Latest price of UniWhales
+uft | Latest price of UniLend Finance
+uffyi | Latest price of Unlimited FiscusFYI
+uip | Latest price of UnlimitedIP
+uno | Latest price of Unobtanium
+ubxt | Latest price of UpBots
+ufr | Latest price of Upfiring
+1up | Latest price of Uptrennd
+uqc | Latest price of Uquid Coin
+urac | Latest price of Uranus
+urus | Latest price of Urus Token
+usda | Latest price of USDA
+usdc | Latest price of USD Coin
+usdex | Latest price of USDEX
+usdfl | Latest price of USDFreeLiquidity
+usdk | Latest price of USDK
+usdl | Latest price of USDL
+usdq | Latest price of USDQ
+use | Latest price of Usechain
+usg | Latest price of USGold
+uop | Latest price of Utopia Genesis Foundation
+oot | Latest price of Utrum
+utk | Latest price of UTRUST
+utu | Latest price of UTU Coin
+vai | Latest price of Vai
+vld | Latest price of Vetri
+vlx | Latest price of Vallix
+vamp | Latest price of Vampire Protocol
+vany | Latest price of Vanywhere
+vprc | Latest price of VapersCoin
+varius | Latest price of Varius
+vbt | Latest price of VBT
+vet | Latest price of VeChain
+vxv | Latest price of Vectorspace AI
+vega | Latest price of Vega Coin
+veil | Latest price of VEIL
+vls | Latest price of Veles
+velo | Latest price of Velo
+vena | Latest price of Vena Network
+vnx | Latest price of Venox
+xvs | Latest price of Venus
+vltc | Latest price of Venus LTC
+vra | Latest price of Verasity
+xvg | Latest price of Verge
+vbk | Latest price of VeriBlock
+vrc | Latest price of VeriCoin
+vdg | Latest price of VeriDocGlobal
+veri | Latest price of Veritaseum
+vrs | Latest price of Veros
+vrx | Latest price of Verox
+vtc | Latest price of Vertcoin
+vrsc | Latest price of Verus Coin
+vsp | Latest price of Vesper Finance
+vest | Latest price of VestChain
+vtho | Latest price of VeThor Token
+vex | Latest price of Vexanium
+via | Latest price of Viacoin
+vibe | Latest price of VIBE
+vib | Latest price of Viberate
+vit | Latest price of Vice Industry Token
+vn | Latest price of Vice Network
+vi | Latest price of Vid
+vidt | Latest price of VIDT Datalink
+vid | Latest price of VideoCoin
+vdl | Latest price of Vidulum
+vidy | Latest price of VIDY
+vidya | Latest price of Vidya
+vig | Latest price of VIG
+vinci | Latest price of Vinci
+visio | Latest price of Visio
+vsn | Latest price of Vision
+visr | Latest price of Visor
+vitae | Latest price of Vitae
+vite | Latest price of Vite
+vivid | Latest price of Vivid Coin
+vivo | Latest price of VIVO
+vndc | Latest price of VNDC
+vdx | Latest price of Vodi X
+voise | Latest price of VOISE
+vtx | Latest price of Volentix
+vollar | Latest price of V-Dimension
+acdc | Latest price of Volt
+vol | Latest price of Volume Network
+vox | Latest price of Vox.Finance
+vsl | Latest price of vSlice
+vsx | Latest price of Vsync
+vsys | Latest price of V.SYSTEMS
+vybe | Latest price of Vybe
+wabi | Latest price of Wabi
+wgr | Latest price of Wagerr
+waif | Latest price of Waifu Token
+wtc | Latest price of Waltonchain
+wan | Latest price of Wanchain
+wand | Latest price of WandX
+waves | Latest price of Waves
+wct | Latest price of Waves Community Token
+west | Latest price of Waves Enterprise
+wgo | Latest price of WavesGo
+waxp | Latest price of WAX
+waxe | Latest price of WAXE
+wicc | Latest price of WaykiChain
+wgrt | Latest price of WaykiChain Governance Coin
+wrx | Latest price of WazirX
+mintme | Latest price of MintMe.com Coin
+web | Latest price of Webcoin
+wfx | Latest price of WebFlix
+won | Latest price of WeBlock
+well | Latest price of Wellness Token Economy
+wtl | Latest price of Welltrado
+wpr | Latest price of WePower
+weth | Latest price of WETH
+trst | Latest price of WeTrust
+wgp | Latest price of W Green Pay
+whale | Latest price of WHALE
+whl | Latest price of WhaleRoom
+wbt | Latest price of Whalesburg
+when | Latest price of WHEN Token
+whirl | Latest price of Whirl Finance
+xwc | Latest price of Whitecoin
+white | Latest price of Whiteheart
+wrc | Latest price of WhiteRockCasino
+wifi | Latest price of Wifi Coin
+wiki | Latest price of Wiki Token
+wbb | Latest price of Wild Beast Block
+wild | Latest price of Wild Crypto
+wcc | Latest price of Wincash Coin
+lif | Latest price of Lif
+wing | Latest price of Wing Finance
+wings | Latest price of Wings
+win | Latest price of WINk
+wnrz | Latest price of WinPlay
+wxt | Latest price of Wirex
+wdc | Latest price of Wisdom Chain
+wit | Latest price of WITChain
+wix | Latest price of Wixlar
+wows | Latest price of Wolves of Wall Street
+women | Latest price of WomenCoin
+wom | Latest price of WOM Protocol
+log | Latest price of Woodcoin
+woo | Latest price of Wootrade Network
+world | Latest price of World Token
+wozx | Latest price of Efforce
+wpp | Latest price of WPP Token
+wanatha | Latest price of Wrapped ANATHA
+wbtc | Latest price of Wrapped Bitcoin
+wmc | Latest price of Wrapped MarbleCards
+mcat20 | Latest price of Wrapped Moon Cats
+wnxm | Latest price of Wrapped NXM
+woa | Latest price of Wrapped Origin Axie
+x42 | Latest price of X42 Protocol
+x8x | Latest price of X8X Token
+xank | Latest price of Xank
+xaur | Latest price of Xaurum
+ix | Latest price of X-Block
+xcash | Latest price of X-CASH
+xco | Latest price of X-Coin
+xfyi | Latest price of XCredit
+xdc | Latest price of XDC Network
+xdef2 | Latest price of Xdef Finance
+xen | Latest price of Xenon
+xnb | Latest price of Xeonbit
+xns | Latest price of Xeonbit Token
+xfund | Latest price of xFund
+xgox | Latest price of XGOX
+xio | Latest price of Blockzero Labs
+xiot | Latest price of Xiotri
+xmx | Latest price of XMax
+xmon | Latest price of XMON
+xov | Latest price of XOVBank
+xp | Latest price of XP
+xpo | Latest price of X-power Chain
+xsc | Latest price of XsCoin
+xsp | Latest price of XSwap
+xby | Latest price of XTRABYTES
+xyo | Latest price of XYO Network
+yac | Latest price of YACoin
+ykz | Latest price of Yakuza DFO
+yam | Latest price of YAM
+yamv2 | Latest price of YAM v2
+yap | Latest price of Yap Stone
+yax | Latest price of yAxis
+yec | Latest price of Ycash
+yf4 | Latest price of Yearn4 Finance
+yfi | Latest price of yearn.finance
+yfbt | Latest price of Yearn Finance Bit
+yfn | Latest price of Yearn Finance Network
+yland | Latest price of Yearn Land
+ysec | Latest price of Yearn Secure
+yee | Latest price of Yee
+fam | Latest price of Yefam.Finance
+yeld | Latest price of Yeld Finance
+ytn | Latest price of YENTEN
+yes | Latest price of YES
+yfarm | Latest price of YFARM Token
+yfbeta | Latest price of yfBeta
+yfdai | Latest price of YfDAI.finance
+yffc | Latest price of yffc.finance
+yff | Latest price of YFF.Finance
+yffi | Latest price of yffi finance
+yffii | Latest price of YFFII Finance
+yffs | Latest price of YFFS Finance
+yfi3 | Latest price of YFI3.money
+yfie | Latest price of YFIEXCHANGE.FINANCE
+yfii | Latest price of DFI.money
+yfim | Latest price of Yfi.mobi
+yfo | Latest price of YFIONE
+yfive | Latest price of YFIVE FINANCE
+yfix | Latest price of YFIX.finance
+yfl | Latest price of YF Link
+yfos | Latest price of YFOS.finance
+yfox | Latest price of YFOX Finance
+yfpro | Latest price of YFPRO Finance
+yfte | Latest price of YFTether
+yeed | Latest price of Yggdrash
+yld | Latest price of Yield
+nyan | Latest price of YieldNyan Token
+yop | Latest price of Yield Optimization Platform & Protocol
+yield | Latest price of Yield Protocol
+ymax | Latest price of YMAX
+yo | Latest price of Yobit Token
+yoc | Latest price of Yocoin
+yta | Latest price of YottaChain
+you | Latest price of YOU Chain
+uc | Latest price of YouLive Coin
+yoyow | Latest price of YOYOW
+yrise | Latest price of yRise Finance
+ysr | Latest price of Ystar
+ycc | Latest price of Yuan Chain Coin
+yui | Latest price of YUI Finance
+yup | Latest price of Yup
+yvs | Latest price of YVS Finance
+yyfi | Latest price of YYFI.Protocol
+zaif | Latest price of Zaif Token
+zano | Latest price of Zano
+zap | Latest price of Zap
+zb | Latest price of ZB Token
+zec | Latest price of Zcash
+zcc | Latest price of ZcCoin
+zcl | Latest price of Zclassic
+firo | Latest price of Firo
+zcr | Latest price of ZCore
+nzl | Latest price of Zealium
+zco | Latest price of Zebi
+zfl | Latest price of Zuflo Coin
+zdex | Latest price of Zeedex
+zpt | Latest price of Zeepin
+zeit | Latest price of Zeitcoin
+zpae | Latest price of ZelaaPayAE
+zel | Latest price of Zel
+zlw | Latest price of Zelwin
+znd | Latest price of Zenad
+zen | Latest price of Horizen
+zefu | Latest price of Zenfuse
+znn | Latest price of Zenon
+zp | Latest price of Zen Protocol
+znz | Latest price of ZENZO
+zeon | Latest price of ZEON Network
+zer | Latest price of Zero
+zero | Latest price of Zero Exchange
+zee | Latest price of ZeroSwap
+zut | Latest price of Zero Utility Token
+zsc | Latest price of Zeusshield
+zuc | Latest price of ZeuxCoin
+zla | Latest price of Zilla
+zil | Latest price of Zilliqa
+zinc | Latest price of ZINC
+zip | Latest price of Zipper Network
+zipt | Latest price of Zippie
+zks | Latest price of ZKSwap
+zdr | Latest price of Zloadr
+zlot | Latest price of zLOT
+zmn | Latest price of ZMINE
+zne | Latest price of Zonecoin
+zpr | Latest price of ZPER
+zrc | Latest price of ZrCoin
+zt | Latest price of ZBG Token
+zum | Latest price of ZumCoin
+zusd | Latest price of ZUSD
+zyn | Latest price of Zynecoin
+zyro | Latest price of Zyro
+zzz | Latest price of zzz.finance
+cpp <Code> | C++ code block
+cs <Code> | C-Sharp code block
+java <Code> | Java code block
+py <Code> | Python code block
+js <Code> | JavaScript code block
+lua <Code> | Lua code block
+php <Code> | php code block
+html <Code> | HTML code block
+css <Code> | CSS code block
+yaml <Code> | YAML code block
+json <Code> | JSON code block
+ini <Code> | INI code block
+xml <Code> | XML code block
+swift <Code> | Swift code block
+sql <Code> | SQL code block
+matlab <Code> | Matlab code block
+bash <Code> | Bash code block
+go <Code> | Go code block
+http <Code> | HTTP code block
+perl <Code> | Perl code block
+rust <Code> | Rust code block
+asciidoc <Code> | Asciidoc code block
+ahk <Code> | Autohotkey code block
+coffeescript <Code> | CoffeeScript code block
+diff <Code> | Diff code block
+fix <Code> | Fix code block
+ml <Code> | ML code block
+prolog <Code> | Prolog code block
+xl <Code> | XL code block
+ruby <Code> | Ruby code block
+iptype <IP Address> | Displays whether the IP is bad and what type it is
+ipresolve <IP Address> | Resolves an IP Address
+portscan <IP Address> | Scans an IP Address for open ports
+rdns <IP Address> | Scans for reverse DNS records
+host2ip <Domain> | Shows IP of host
+showping <IP Address> | Shows ping of an IP
+ban <User> | Bans an user
+softban <User> | Bans and unbans an user
+hackban <User ID> | Bans an user outside of the server
+unban <User ID> | Unban an user
+kick <User> | Kicks an user
+delinvites | Deletes all server invites
+addemoji <Name> <URL> | Adds an emoji
+editemoji <Emoji> <Name> | Renames the emoji
+emojidelete <Emoji> | Deletes the emoji
+lockchannel <Channel> | Locks a channel
+unlockchannel <Channel> | Unocks a channel
+slowmode <Seconds> | Set channel slowmode
+pin <Channel> <Message ID> | Pin a message
+unpin <Channel> <Message ID> | Unpin a message
+semimute <User> | Delete every message a user sends
+unsemimute <User> | Stop semi-mute for user
+clearsemimute | Clear semi-mute list
+nick <Member> <Nickname> | Set a nickname
+crawl <URL> | Crawl a website
+traceroute <IP> | Traceroute an IP 
+httpheaders <IP> | Show HTTP headers
+subnetcalc <Subnet> | Calculate a subnet mask
+aslookup <ASN> | ASN Lookup
+voice | Voice commands
+vcdisconnectall <Voice Channel> | Disconnects all clients from a voice channel
+vcdisconnect <Member> | Disconnects a client from a voice channel
+vcmovespam <Amount> | Moves all clients a specific amount of times to random channels
+vcdeafen <Member> | Deafens a member
+vcmute <Member> | Mutes a member
+vcundeafen <Member> | Undeafens a member
+vcunmute <Member> | Unmutes a member
